@@ -64,7 +64,7 @@ const About = () => {
 					the scope and reach of our projects.
 				</Content>
 			</div>
-			<div className="h-full p-2 bg-orange-500 md:rounded-br-3xl">
+			<div className="h-full p-2 bg-orange-500 md:rounded-none md:rounded-br-3xl rounded-b-3xl ">
 				<Content title={"Join Us"}>
 					Interested in becoming a part of SMU SRF? Learn how you can join our
 					community, participate in research projects, and contribute to

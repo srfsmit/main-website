@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Oval } from "react-loader-spinner";
+import { Query } from "appwrite";
 
 const Articles = () => {
 	const [articles, setArticles] = useState([]);
@@ -15,7 +16,8 @@ const Articles = () => {
 		setLoading(true);
 		const promise = databases.listDocuments(
 			"66998cba000a441d2083",
-			"66998cc6001807ee34db"
+			"66998cc6001807ee34db",
+			[Query.orderDesc("$createdAt")]
 		);
 
 		promise
