@@ -17,11 +17,13 @@ const Sidebar = ({ links, isOpen, toggleSidebar }) => {
 			</div>
 			<ul className="mt-8">
 				{links.map((link) => (
-					<Link
-						to={link.path}
-						className="px-4 py-2 text-white hover:bg-orange-400">
-						{link.title}
-					</Link>
+					<li key={link.path} className="px-4 py-2 hover:bg-orange-400">
+						<Link
+							to={link.path}
+							className="px-4 py-2 text-white hover:bg-orange-400">
+							{link.title}
+						</Link>
+					</li>
 				))}
 			</ul>
 		</div>
