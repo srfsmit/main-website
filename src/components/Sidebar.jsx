@@ -1,6 +1,7 @@
 // src/components/Sidebar.jsx
 import React from "react";
 import Logo from "../images/srflogo.svg";
+import { Link } from "react-router-dom";
 
 const Sidebar = ({ links, isOpen, toggleSidebar }) => {
 	return (
@@ -16,11 +17,11 @@ const Sidebar = ({ links, isOpen, toggleSidebar }) => {
 			</div>
 			<ul className="mt-8">
 				{links.map((link) => (
-					<li key={link.path} className="px-4 py-2 hover:bg-orange-400">
-						<a href={link.path} className="text-white">
-							{link.title}
-						</a>
-					</li>
+					<Link
+						to={link.path}
+						className="px-4 py-2 text-white hover:bg-orange-400">
+						{link.title}
+					</Link>
 				))}
 			</ul>
 		</div>
