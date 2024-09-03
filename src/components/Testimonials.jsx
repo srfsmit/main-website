@@ -3,7 +3,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { databases } from "../appwrite";
-import img1 from "../images/img1.jpg"; // Import your images
 import { Query } from "appwrite";
 
 const Testimonials = () => {
