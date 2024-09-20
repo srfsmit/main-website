@@ -105,7 +105,7 @@ const Events = () => {
 								<div key={idx} className="p-4">
 									<div className="flex flex-col md:flex-row bg-white shadow-lg rounded-lg overflow-hidden md:h-[300px] h-auto">
 										<img
-											src="https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp"
+											src={event.image}
 											alt="event"
 											className="object-cover md:h-full md:w-1/3 h-[200px] w-full"
 										/>
@@ -122,7 +122,7 @@ const Events = () => {
 												</p>
 												<p className="flex items-center text-sm text-gray-700">
 													<FaClock className="mr-1" />{" "}
-													{moment(event.date).format("MMMM Do YYYY, h:mm a")}
+													{moment(event.date).format("MMMM Do YYYY")}
 												</p>
 												{event.registrationLink && (
 													<p className="flex items-center text-sm text-blue-700">
@@ -143,6 +143,17 @@ const Events = () => {
 															target="_blank"
 															rel="noopener noreferrer">
 															Join Meeting
+														</a>
+													</p>
+												)}
+												{event.visitLink && (
+													<p className="flex items-center text-sm text-blue-700">
+														<FaExternalLinkAlt className="mr-1" />{" "}
+														<a
+															href={event.visitLink}
+															target="_blank"
+															rel="noopener noreferrer">
+															More Info
 														</a>
 													</p>
 												)}
