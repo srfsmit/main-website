@@ -81,11 +81,30 @@ const Governing = () => {
 		},
 	];
 
+	const exMembers = [
+		{
+			name: "Dr. Jane Smith",
+			position: "Former President",
+			institution: "Department of Physics, Sikkim Manipal Institute of Technology",
+		},
+		{
+			name: "Mr. John Doe",
+			position: "Former Secretary",
+			institution: "Department of Chemistry, Sikkim Manipal Institute of Technology",
+		},
+		{
+			name: "Ms. Emily Brown",
+			position: "Former Executive Board Member",
+			institution: "Sikkim Manipal Institute of Medical Sciences (SMIMS)",
+		},
+	];
+
 	return (
 		<div className="container mx-auto px-4">
 			<h1 className="text-3xl md:text-5xl font-bold text-orange-800 font-satoshi text-center mb-8">
 				Governing Council
 			</h1>
+			
 			<section className="mb-12">
 				<h2 className="text-3xl mb-4">Directorate of Research</h2>
 				<div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -140,7 +159,7 @@ const Governing = () => {
 				</div>
 			</section>
 
-			<section>
+			<section className="mb-12">
 				<h2 className="text-3xl mb-4">Executive Council</h2>
 				<div className="overflow-x-auto">
 					<table className="w-full mb-8 table-auto">
@@ -153,6 +172,36 @@ const Governing = () => {
 						</thead>
 						<tbody className="text-black">
 							{members.map((member, index) => (
+								<tr key={index}>
+									<td className="px-4 py-2 border border-black">
+										{member.name}
+									</td>
+									<td className="px-4 py-2 border border-black">
+										{member.position}
+									</td>
+									<td className="px-4 py-2 border border-black">
+										{member.institution}
+									</td>
+								</tr>
+							))}
+						</tbody>
+					</table>
+				</div>
+			</section>
+
+			<section>
+				<h2 className="text-3xl mb-4">Ex-Executive Council</h2>
+				<div className="overflow-x-auto">
+					<table className="w-full mb-8 table-auto">
+						<thead className="bg-orange-500 text-white">
+							<tr>
+								<th className="px-4 py-2">Name</th>
+								<th className="px-4 py-2">Position</th>
+								<th className="px-4 py-2">Institution</th>
+							</tr>
+						</thead>
+						<tbody className="text-black">
+							{exMembers.map((member, index) => (
 								<tr key={index}>
 									<td className="px-4 py-2 border border-black">
 										{member.name}
