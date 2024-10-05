@@ -193,7 +193,7 @@ const Governing = () => {
 
 			{/* Ex-Executive Council section */}
 			<section>
-				<h2 className="text-3xl mb-4">Ex-Executive Council</h2>
+				<h2 className="text-3xl mb-4">Former Executive Council</h2>
 				<div className="overflow-x-auto">
 					<table className="w-full mb-8 table-auto">
 						<thead className="bg-orange-500 text-white">
