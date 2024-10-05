@@ -80,26 +80,6 @@ const Governing = () => {
 			institution: "Master of Hospital Administration (MHA)",
 		},
 	];
-	const exmem = [
-		{
-			name: "Mr. Jitam Bharadwaj",
-			position: "Executive Board Member",
-			institution:
-				"Department of Artificial Intelligence (AI) & Data Science (DS), Sikkim Manipal Institute of Technology",
-		},
-		{
-			name: "Mr. Marli Bagra",
-			position: "Executive Board Member",
-			institution:
-				"Department of Civil Engineering, Sikkim Manipal Institute of Technology",
-		},
-		{
-			name: "Mr. Mriganka Dey",
-			position: "Executive Board Member",
-			institution:
-				"Department of Computer Science & Engineering, Sikkim Manipal Institute of Technology",
-		},
-	]
 
 	return (
 		<>
@@ -182,35 +162,6 @@ const Governing = () => {
 						</thead>
 						<tbody className="text-black">
 							{members.map((member) => (
-								<tr>
-									<td className="px-4 py-2 border border-black">
-										{member.name}
-									</td>
-									<td className="px-4 py-2 border border-black">
-										{member.position}
-									</td>
-									<td className="px-4 py-2 border border-black">
-										{member.institution}
-									</td>
-								</tr>
-							))}
-						</tbody>
-					</table>
-				</div>
-			</div>
-			<div className="flex flex-col gap-4">
-				<div className="mx-auto text-3xl md:mx-0">Ex-Executive Council</div>
-				<div className="overflow-x-auto text-white">
-					<table className="w-full mb-8 table-auto">
-						<thead className="bg-orange-500">
-							<tr>
-								<th className="px-4 py-2">Name</th>
-								<th className="px-4 py-2">Position</th>
-								<th className="px-4 py-2">Institution</th>
-							</tr>
-						</thead>
-						<tbody className="text-black">
-							{members.map((exmem) => (
 								<tr>
 									<td className="px-4 py-2 border border-black">
 										{member.name}
