@@ -83,17 +83,16 @@ const Governing = () => {
 
 
 	const exMembers = [
-
+		{
+			name: "Dr Kartikeya Ojha",
+			position: "President, Founder of SRF SMU",
+			tenure: "2021-2022",
+			institution: "Sikkim Manipal Institute of Medical Sciences (SMIMS)",
+		},
 		{
 			name: "Dr Shreya Nandan",
 			position: "President",
 			tenure: "2022-2023",
-			institution: "Sikkim Manipal Institute of Medical Sciences (SMIMS)",
-		},
-		{
-			name: "Dr Kartikeya Ojha",
-			position: "President",
-			tenure: "2021-2022",
 			institution: "Sikkim Manipal Institute of Medical Sciences (SMIMS)",
 		},
 	];
