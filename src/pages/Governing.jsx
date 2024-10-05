@@ -86,7 +86,7 @@ const Governing = () => {
 
 		{
 			name: "Dr Shreya Nandan",
-			position: "Former Executive Board Member",
+			position: "President",
 			tenure: "2022-2023",
 			institution: "Sikkim Manipal Institute of Medical Sciences (SMIMS)",
 		},
