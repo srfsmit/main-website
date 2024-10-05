@@ -1,7 +1,7 @@
 import React from "react";
 
 const Governing = () => {
-	const members = [
+	const member = [
 		{
 			name: "Mr. Kunal Sharma",
 			position: "President",
