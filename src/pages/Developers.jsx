@@ -1,16 +1,16 @@
 import React from "react";
-import img1 from "../images/1.jpg";
+import kunal from "../images/kunal.jpeg";
+
 import Developer from "../components/Developer";
 
 const DevelopersPage = () => {
 	const developers = [
 		{
-			name: "Developer 1",
-			registrationNo: "REG001",
+			name: "Kunal Sharma",
+			registrationNo: "202100033",
 			institution: "Sikkim Manipal Institute of Technology",
-			email: "dev1@smu.edu.in",
-			linkedin: "https://www.linkedin.com/in/dev1",
-			instagram: "https://www.instagram.com/dev1",
+			email: "kunal_202100033@smit.smu.edu.in",
+			linkedin: "https://www.linkedin.com/in/kunal021",
 			image: img1,
 			message:
 				"It was an amazing experience building this website. I learned a lot and enjoyed working with the team.",
