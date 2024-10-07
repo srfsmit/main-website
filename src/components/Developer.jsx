@@ -12,7 +12,7 @@ const Developer = ({ developer }) => {
 						{developer.name}
 					</h3>
 					<p>
-						<strong>Position:</strong> {developer.registrationNo}
+						<strong>Position:</strong> {developer.position}
 					</p>
 					<p>
 						<strong>Registration No:</strong> {developer.registrationNo}
