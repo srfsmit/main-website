@@ -1,4 +1,4 @@
-const Developer = () => {
+const Developer = ({ developer }) => {
 	return (
 		<div className="bg-white shadow-lg rounded-lg overflow-hidden border border-orange-500 p-6">
 			<div className="grid grid-cols-1 md:grid-cols-3 gap-6">
