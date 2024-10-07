@@ -1,8 +1,6 @@
 import React from 'react';
-// Assume images are imported here
 import img1 from "../images/1.jpg";
-// import img2 from './path/to/img2.jpg';
-// ... and so on for all developer images
+
 
 const DeveloperCard = ({ developer }) => (
   <div className="bg-white shadow-lg rounded-lg overflow-hidden border border-orange-500 p-6">
@@ -40,10 +38,9 @@ const DevelopersPage = () => {
       email: "dev1@smu.edu.in",
       linkedin: "https://www.linkedin.com/in/dev1",
       instagram: "https://www.instagram.com/dev1",
-      image: img1, // Assuming img1 is imported at the top of the file
+      image: img1,
       message: "It was an amazing experience building this website. I learned a lot and enjoyed working with the team."
     },
-    // ... Add 12 more developer objects with similar structure
   ];
 
   return (
