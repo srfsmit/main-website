@@ -12,6 +12,9 @@ const Developer = ({ developer }) => {
 						{developer.name}
 					</h3>
 					<p>
+						<strong>Position:</strong> {developer.registrationNo}
+					</p>
+					<p>
 						<strong>Registration No:</strong> {developer.registrationNo}
 					</p>
 					<p>
