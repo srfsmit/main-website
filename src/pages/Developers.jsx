@@ -11,7 +11,7 @@ const DevelopersPage = () => {
 			institution: "Sikkim Manipal Institute of Technology",
 			email: "kunal_202100033@smit.smu.edu.in",
 			linkedin: "https://www.linkedin.com/in/kunal021",
-			image: img1,
+			image: kunal,
 			message:
 				"It was an amazing experience building this website. I learned a lot and enjoyed working with the team.",
 		},
