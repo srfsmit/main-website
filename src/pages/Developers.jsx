@@ -19,6 +19,7 @@ const DevelopersPage = () => {
 	const developers = [
 		{
 			name: "Kunal Sharma",
+			position: "Senior Developer"
 			registrationNo: "202100033",
 			institution: "Sikkim Manipal Institute of Technology",
 			email: "kunal_202100033@smit.smu.edu.in",
