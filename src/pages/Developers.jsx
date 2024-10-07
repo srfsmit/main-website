@@ -19,7 +19,7 @@ const DevelopersPage = () => {
 	const developers = [
 		{
 			name: "Kunal Sharma",
-			position: "Senior Developer"
+			position: "Senior Developer, President SRF SMIT",
 			registrationNo: "202100033",
 			institution: "Sikkim Manipal Institute of Technology",
 			email: "kunal_202100033@smit.smu.edu.in",
@@ -29,17 +29,8 @@ const DevelopersPage = () => {
 				"I had the rewarding experience of guiding fellow students and contributing to the development of the SRF SMU website. Collaborating closely with my peers, I was able to share insights on both design and functionality, helping to create a platform that effectively represents SRF SMU’s mission. It was a great opportunity to both learn and lead, and I’m proud of the collective effort that resulted in a user-friendly and impactful website.",
 		},
 		{
-			name: "Mayank Jaiswal",
-			registrationNo: "202100103",
-			institution: "Sikkim Manipal Institute of Technology",
-			email: "mayank_202100103@smit.smu.edu.in",
-			linkedin: " https://www.linkedin.com/in/mayank-jaiswal-273bb2227",
-			image: mayank,
-			message:
-				"Being part of the organizing team has been a valuable learning experience. I gained practical skills like using GitHub, which has been essential for collaboration and version control, and explored web development, allowing me to understand the basics of creating websites. Additionally, I learned a lot about team management, from coordinating tasks to ensuring smooth communication between team members. This experience has helped me grow both technical and managerial skills.",
-		},
-		{
 			name: "Jitam Bharadwaj",
+			position: "Senior Developer, Executive Board Member SRF SMIT",
 			registrationNo: "202100242",
 			institution: "Sikkim Manipal Institute of Technology",
 			email: "jitam_202100242@smit.smu.edu.in",
@@ -49,7 +40,19 @@ const DevelopersPage = () => {
 				"Working with my peers on the development of the SRF SMU website was a truly rewarding experience. I got the chance to guide junior students, sharing ideas and insights on both design and how the website should work. This teamwork helped us build a platform that aligns well with SRF SMU’s goals. It was an opportunity to grow as a leader while also learning from others, and I’m proud of how we worked together to create a smooth and impactful website.",
 		},
 		{
+			name: "Mayank Jaiswal",
+			position: "Intership Manager, Secretary SRF SMIT",
+			registrationNo: "202100103",
+			institution: "Sikkim Manipal Institute of Technology",
+			email: "mayank_202100103@smit.smu.edu.in",
+			linkedin: " https://www.linkedin.com/in/mayank-jaiswal-273bb2227",
+			image: mayank,
+			message:
+				"Being part of the organizing team has been a valuable learning experience. I gained practical skills like using GitHub, which has been essential for collaboration and version control, and explored web development, allowing me to understand the basics of creating websites. Additionally, I learned a lot about team management, from coordinating tasks to ensuring smooth communication between team members. This experience has helped me grow both technical and managerial skills.",
+		},
+		{
 			name: "Abhigyan Borah",
+			position: "Developer(Intern), Intern SRF SMIT",
 			registrationNo: "202200096",
 			institution: "Sikkim Manipal Institute of Technology",
 			email: "abhigyan_202200096@smit.smu.edu.in",
@@ -61,6 +64,7 @@ const DevelopersPage = () => {
 		},
 		{
 			name: "Tanushka Singh",
+			position: "Developer(Intern)",
 			registrationNo: "202200284",
 			institution: "Sikkim Manipal Institute of Technology",
 			email: "tanushka_202200284@smit.smu.edu.in",
@@ -71,6 +75,7 @@ const DevelopersPage = () => {
 		},
 		{
 			name: "Bedangshu Raj Mudiar",
+			position: "Developer(Intern)",
 			registrationNo: "202200319",
 			institution: "Sikkim Manipal Institute of Technology",
 			email: "bedangshu_202200319@smit.smu.edu.in",
@@ -82,6 +87,7 @@ const DevelopersPage = () => {
 		},
 		{
 			name: "Isha Sudarshini",
+			position: "Developer(Intern)",
 			registrationNo: "202200287",
 			institution: "Sikkim Manipal Institute of Technology",
 			email: "isha_202200287@smit.smu.edu.in",
@@ -93,6 +99,7 @@ const DevelopersPage = () => {
 		},
 		{
 			name: "Peela Sharandeep",
+			position: "Developer(Intern), Intern SRF SMIT",
 			registrationNo: "202200481",
 			institution: "Sikkim Manipal Institute of Technology",
 			email: "Sharan_202200481@smit.smu.edu.in",
@@ -104,6 +111,7 @@ const DevelopersPage = () => {
 		},
 		{
 			name: "Priyanka Lama",
+			position: "Developer(Intern)",
 			registrationNo: "202300064",
 			institution: "Sikkim Manipal Institute of Technology",
 			email: "priyanka_202300064@smit.smu.edu.in",
@@ -114,6 +122,7 @@ const DevelopersPage = () => {
 		},
 		{
 			name: " Pravesh Sharma",
+			position: "Developer(Intern)",
 			registrationNo: "202300002",
 			institution: "Sikkim Manipal Institute of Technology",
 			email: "Pravesh_202300002@smit.smu.edu.in",
