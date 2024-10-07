@@ -6,6 +6,7 @@ import Governing from "../pages/Governing";
 import Articles from "../pages/Articles";
 import Article from "../pages/Article";
 import Layout from "../Layout";
+import DevelopersPage from "../pages/Developers";
 
 const router = createBrowserRouter([
 	{
@@ -18,6 +19,7 @@ const router = createBrowserRouter([
 			{ path: "/contact", element: <Contact /> },
 			{ path: "/article/:id", element: <Article /> },
 			{ path: "/articles", element: <Articles /> },
+			{ path: "/developerspage", element: <DevelopersPage /> },
 		],
 	},
 ]);
