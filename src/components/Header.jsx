@@ -13,6 +13,7 @@ const Header = () => {
 		{ title: "Articles", path: "/articles" },
 		{ title: "Events", path: "/events" },
 		{ title: "Contact", path: "/contact" },
+		{ title: "Developers", path: "/developers" },
 	];
 
 	const toggleSidebar = () => {
