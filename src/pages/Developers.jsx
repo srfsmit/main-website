@@ -9,6 +9,8 @@ import isha from "../images/isha.jpg";
 import peela from "../images/peela.jpeg";
 import priyanka from "../images/priyanka.jpeg";
 import parvesh from "../images/parvesh.jpeg";
+import seedorf from "../images/seedorf.jpeg";
+
 
 
 
@@ -98,6 +100,18 @@ const DevelopersPage = () => {
 				"During my web development internship at SRF SMIT, I had the opportunity to contribute to the frontend of the official website using React, HTML, and CSS. Although I had no prior experience with React, I quickly adapted and learned throughout the project. Working closely with an amazing team and receiving guidance from Jitam Bharadwaj and Kunal Sharma, I not only gained technical skills but also honed my ability to collaborate effectively using Git. This project was a great learning experience, and I'm proud to have been a part of it.",
 		},
 		{
+			name: " Seedorf Rai",
+			position: "Developer(Intern)",
+			registrationNo: "202200030",
+			institution: "Sikkim Manipal Institute of Technology",
+			email: "Seedorf_20200030@smit.smu.edu.in",
+			linkedin: "https://www.linkedin.com/in/seedorf-rai-373689231/",
+			instagram: "https://www.instagram.com/see._.dorf/",
+			image: seedorf,
+			message:
+				"Building this website was a journey filled with collaboration, learning, and creativity. Working together as a team, we overcame challenges and turned our vision into reality. This experience has been both fulfilling and a testament to the power of teamwork",
+		},
+		{
 			name: "Peela Sharandeep",
 			position: "Developer(Intern), Intern SRF SMIT",
 			registrationNo: "202200481",
@@ -129,7 +143,7 @@ const DevelopersPage = () => {
 			linkedin: "https://www.linkedin.com/in/pravesh-sharma-a93b39284/",
 			image: parvesh,
 			message:
-				"t was very good opportunity to have been parts of this team and to have experience.",
+				"It was very good opportunity to have been parts of this team and to have experience.",
 		},
 	];
 
