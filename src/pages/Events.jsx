@@ -113,7 +113,7 @@ const Events = () => {
 											<h3 className="text-lg font-bold text-black ">
 												{event.Title}
 											</h3>
-											<p className="mt-2 text-sm text-gray-900 ">
+											<p className="mt-2 text-sm text-gray-900 text-justify">
 												{event.content}
 											</p>
 											<div className="flex flex-col mt-2 space-y-2">
