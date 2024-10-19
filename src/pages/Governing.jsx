@@ -95,6 +95,12 @@ const Governing = () => {
 			tenure: "2022-2023",
 			institution: "Sikkim Manipal Institute of Medical Sciences (SMIMS)",
 		},
+		{
+			name: "Bishwapriyo Sen",
+			position: "President",
+			tenure: "2023-2024",
+			institution: "Sikkim Manipal Institute of Medical Sciences (SMIMS)",
+		},
 	];
 
 	return (
@@ -102,6 +108,7 @@ const Governing = () => {
 			<h1 className="text-3xl md:text-5xl font-bold text-orange-800 font-satoshi text-center mb-8">
 				Governing Council
 			</h1>
+			
 			{/* University Leadership section */}
 			<section className="mb-12">
 			<h2 className="text-3xl mb-4">University Leadership</h2>
@@ -129,7 +136,6 @@ const Governing = () => {
 				</div>
 			</div>
 			</section>
-			
 			{/* Directorate of Research section */}
 			<section className="mb-12">
 				<h2 className="text-3xl mb-4">Directorate of Research</h2>
