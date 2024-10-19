@@ -102,6 +102,33 @@ const Governing = () => {
 			<h1 className="text-3xl md:text-5xl font-bold text-orange-800 font-satoshi text-center mb-8">
 				Governing Council
 			</h1>
+			{/* University Leadership section */}
+			<section className="mb-12">
+			<h2 className="text-3xl mb-4">University Leadership</h2>
+			<div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+				<div className="p-4 text-white bg-orange-500 rounded-xl">
+				<h3 className="font-bold mb-2">VICE CHANCELLOR</h3>
+				<p>Air Vice Marshal (Dr.) Dilip Chandra Agarwal, VSM</p>
+				<p>Vice Chancellor, Sikkim Manipal University</p>
+				<p>Email Id: vc@smu.edu.in</p>
+				</div>
+				<div className="p-4 text-white bg-orange-500 rounded-xl">
+				<h3 className="font-bold mb-2">DIRECTOR SMIT</h3>
+				<p>Prof (Dr.) GL Sharma</p>
+				<p>Director, Sikkim Manipal Institute of Technology</p>
+				<p>Email Id: director.smit@smu.edu.in</p>
+				</div>
+				<div className="p-4 text-white bg-orange-500 rounded-xl">
+				<h3 className="font-bold mb-2">DEAN SMIMS</h3>
+				<p>Dr MURALIDHAR V PAI</p>
+				<p>MBBS, DGO, MD (OBG), FICOG, FICMCH</p>
+				<p>Dean, Sikkim Manipal Institute of Medical Sciences</p>
+				<p>Sikkim Manipal University</p>
+				<p>Email: dean@smims.smu.edu.in</p>
+				<p>Phone: +91 3592-270535</p>
+				</div>
+			</div>
+			</section>
 			
 			{/* Directorate of Research section */}
 			<section className="mb-12">
