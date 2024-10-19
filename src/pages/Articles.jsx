@@ -101,13 +101,13 @@ const Articles = () => {
 					<Slider {...settings}>
 						{articles.map((article, idx) => (
 							<div key={idx} className="p-4">
-								<div className="flex flex-col md:flex-row bg-white shadow-lg rounded-lg overflow-hidden md:h-[300px] h-[500px]">
+								<div className="flex flex-col md:flex-row bg-white shadow-lg rounded-lg overflow-hidden md:h-[300px] h-[500px] ">
 									<img
 										src={article.img}
 										alt="Article"
 										className="object-cover md:h-full md:w-1/3 rounded-t-lg md:rounded-none md:rounded-l-lg h-[200px] w-full"
 									/>
-									<div className="flex flex-col flex-grow p-4">
+									<div className="flex flex-col flex-grow p-4 justify-between">
 										<h3 className="text-lg font-bold text-black ">
 											{article.Title}
 										</h3>
@@ -115,11 +115,12 @@ const Articles = () => {
 										<p className="mt-2 text-sm text-gray-900 h-[100px] overflow-hidden">
 											{article.Content}
 										</p>
-										<button
-											onClick={() => navigate(`/article/${article.$id}`)}
-											className="px-4 py-2 mt-2 text-white bg-orange-500 rounded-lg">
+										<a
+											target="_blank"
+											href={article.Link}
+											className="px-4 py-2 mt-2 w-[200px] text-white bg-orange-500 rounded-lg">
 											Read More
-										</button>
+										</a>
 									</div>
 								</div>
 							</div>
