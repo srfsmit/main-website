@@ -7,6 +7,7 @@ import Articles from "../pages/Articles";
 import Article from "../pages/Article";
 import DevelopersPage from "../pages/Developers";
 import Layout from "../Layout";
+import PhotoGallery from "../pages/gallery";
 
 const router = createBrowserRouter([
 	{
@@ -20,6 +21,7 @@ const router = createBrowserRouter([
 			{ path: "/article/:id", element: <Article /> },
 			{ path: "/articles", element: <Articles /> },
 			{ path: "/developers", element: <DevelopersPage /> },
+			{ path: "/gallery", element: <PhotoGallery /> },
 		],
 	},
 ]);
