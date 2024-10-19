@@ -85,11 +85,6 @@ const PhotoGallery = () => {
 								alt={photo.name || "Image"}
 								className="w-full h-auto object-cover rounded-lg shadow-md transition-all duration-300 border-2 border-[#f97316]"
 							/>
-							<div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-opacity duration-300 rounded-lg flex items-end justify-center opacity-0 group-hover:opacity-100">
-								<p className="text-white text-lg font-semibold p-4">
-									{photo.name}
-								</p>
-							</div>
 						</div>
 					</div>
 				))}
