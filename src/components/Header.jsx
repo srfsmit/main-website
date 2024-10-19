@@ -12,8 +12,7 @@ const Header = () => {
 		{ title: "Governing Council", path: "/governing" },
 		{ title: "Articles", path: "/articles" },
 		{ title: "Events", path: "/events" },
-		{ title: "Contact", path: "/contact" },
-		{ title: "Developers", path: "/developers" },
+		{ title: "Gallery", path: "/gallery" },
 	];
 
 	const toggleSidebar = () => {
