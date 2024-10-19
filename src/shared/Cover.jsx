@@ -1,7 +1,7 @@
 import React from "react";
 import Main from "../images/main.jpg";
 import img1 from "../images/1.jpg";
-import img2 from "../images/2.jpg";
+import secondary from "../images/secondary.jpg";
 import img3 from "../images/3.jpg";
 import img4 from "../images/4.jpg";
 import img5 from "../images/5.jpg";
@@ -22,9 +22,7 @@ const Cover = () => {
 					<div>
 						<span className="text-orange-500">F</span>orum
 					</div>
-					<div>
-						<span className="text-orange-500">S</span>MU
-					</div>
+					<div className="mx-100">SMU</div>
 				</div>
 
 				<div className="justify-end flex-1 hidden md:flex">
@@ -38,7 +36,7 @@ const Cover = () => {
 
 			<div className="justify-between hidden md:grid grid-cols-5 gap-4 ">
 				<img src={img1} alt="1" className="h-auto rounded-tl-full col-span-1" />
-				<img src={img2} alt="2" className="h-auto col-span-1" />
+				<img src={secondary} alt="2" className="h-auto col-span-1" />
 				<img src={img3} alt="3" className="h-auto col-span-1" />
 				<img src={img4} alt="4" className="h-auto col-span-1" />
 				<img

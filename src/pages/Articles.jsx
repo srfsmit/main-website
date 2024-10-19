@@ -78,7 +78,6 @@ const Articles = () => {
 		],
 	};
 
-
   return (
     <div className="bg-orange-50 py-8">
       <h1 className="text-4xl font-bold text-center text-orange-800 mb-8">
