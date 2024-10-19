@@ -1,3 +1,4 @@
+import { FaLinkedin, FaInstagram } from "react-icons/fa6";
 const Developer = ({ developer }) => {
 	return (
 		<div className="bg-white shadow-lg rounded-lg overflow-hidden border border-orange-500 p-6">
@@ -31,15 +32,15 @@ const Developer = ({ developer }) => {
 							href={developer.linkedin}
 							target="_blank"
 							rel="noopener noreferrer"
-							className="bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-600 transition duration-300">
-							LinkedIn
+							className="text-orange-500  px-4 py-2 rounded hover:text-orange-800 transition duration-300 text-3xl hover:cursor-pointer">
+							<FaLinkedin />
 						</a>
 						<a
 							href={developer.instagram}
 							target="_blank"
 							rel="noopener noreferrer"
-							className="bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-600 transition duration-300">
-							Instagram
+							className="text-orange-500  px-4 py-2 rounded hover:text-orange-800 transition duration-300 text-3xl hover:cursor-pointer">
+							<FaInstagram />
 						</a>
 					</div>
 				</div>

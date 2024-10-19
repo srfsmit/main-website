@@ -11,10 +11,6 @@ import priyanka from "../images/priyanka.jpeg";
 import parvesh from "../images/parvesh.jpeg";
 import seedorf from "../images/seedorf.jpeg";
 
-
-
-
-
 import Developer from "../components/Developer";
 
 const DevelopersPage = () => {
@@ -82,7 +78,8 @@ const DevelopersPage = () => {
 			institution: "Sikkim Manipal Institute of Technology",
 			email: "bedangshu_202200319@smit.smu.edu.in",
 			linkedin: "https://www.linkedin.com/in/bedangshu-raj-mudiar-b89259293/",
-			instagram: "https://www.instagram.com/bedangshurajmudiar/profilecard/?igsh=dTM3dGdja2Y3NjRm",
+			instagram:
+				"https://www.instagram.com/bedangshurajmudiar/profilecard/?igsh=dTM3dGdja2Y3NjRm",
 			image: bedangshu,
 			message:
 				"Being part of the team and building this website has been an insightful and rewarding journey. I’ve gained a lot of knowledge and significantly improved my skill set along the way. A big thank you to all the mentors and teacher coordinators for providing me with this opportunity .I truly appreciate their guidance and support! Peace✌️",
