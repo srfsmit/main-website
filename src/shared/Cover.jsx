@@ -22,9 +22,7 @@ const Cover = () => {
 					<div>
 						<span className="text-orange-500">F</span>orum
 					</div>
-					<div>
-						<span className="text-orange-500">S</span>MU
-					</div>
+					<div className="mx-100">SMU</div>
 				</div>
 
 				<div className="justify-end flex-1 hidden md:flex">

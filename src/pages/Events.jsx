@@ -57,7 +57,7 @@ const Events = () => {
 		const promise = databases.listDocuments(
 			"66998cba000a441d2083",
 			"66ad25f1002ec01a6d1e",
-			[Query.orderDesc("$createdAt"), Query.limit(25)]
+			[Query.orderDesc("date"), Query.limit(25)]
 		);
 
 		promise
