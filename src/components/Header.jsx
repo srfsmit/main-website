@@ -13,6 +13,7 @@ const Header = () => {
 		{ title: "Articles", path: "/articles" },
 		{ title: "Events", path: "/events" },
 		{ title: "Gallery", path: "/gallery" },
+	];
 
 	const toggleSidebar = () => {
 		setSidebarOpen(!isSidebarOpen);
