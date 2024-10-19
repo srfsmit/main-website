@@ -23,10 +23,10 @@ const Header = () => {
 		<div className="relative w-full px-4 py-2 bg-orange-500 md:px-16">
 			<div className="flex items-center justify-between">
 				<img src={Logo} width={50} alt="Logo" />
-				<div className="items-center justify-between hidden gap-16 md:flex">
+				<div className="items-center justify-between hidden md:flex w-[60%]">
 					{links.map((link, idx) => {
 						return (
-							<div className="w-32" key={idx}>
+							<div className="w-fit" key={idx}>
 								<NavLinks {...link} />
 							</div>
 						);
