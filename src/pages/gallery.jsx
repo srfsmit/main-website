@@ -8,7 +8,7 @@ const PhotoGallery = () => {
 	const [error, setError] = useState(null);
 	const [currentPage, setCurrentPage] = useState(1);
 	const [totalPages, setTotalPages] = useState(1);
-	const itemsPerPage = 12; // Customize this to your desired items per page
+	const itemsPerPage = 30; // Customize this to your desired items per page
 
 	// Fetch photos from the Appwrite bucket
 	const fetchPhotos = async (page) => {
