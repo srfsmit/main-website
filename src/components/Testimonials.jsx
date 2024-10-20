@@ -14,7 +14,7 @@ const Testimonials = () => {
 		const promise = databases.listDocuments(
 			"66998cba000a441d2083",
 			"66ad1739002540db4110",
-			[Query.orderDesc("$createdAt")]
+			[Query.orderAsc("$createdAt")]
 		);
 
 		promise

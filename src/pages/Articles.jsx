@@ -78,58 +78,62 @@ const Articles = () => {
 		],
 	};
 
-  return (
-    <div className="bg-orange-50 py-8">
-      <h1 className="text-4xl font-bold text-center text-orange-800 mb-8">
-        Articles By The Students
-      </h1>
-      <div className="container mx-auto px-4">
-        {loading ? (
-          <div className="flex items-center justify-center h-64">
-            <Oval
-              height={50}
-              width={50}
-              color="#f97316"
-              visible={true}
-              ariaLabel="oval-loading"
-              secondaryColor="#f97316"
-              strokeWidth={2}
-              strokeWidthSecondary={2}
-            />
-          </div>
-        ) : (
-          <Slider {...settings}>
-            {articles.map((article, idx) => (
-              <div key={idx} className="p-2">
-                <div className="bg-white shadow-md rounded-lg overflow-hidden flex h-[300px]">
-                  <img
-                    src={article.img}
-                    alt={article.Title}
-                    className="w-1/3 object-cover"
-                  />
-                  <div className="w-2/3 p-4 flex flex-col justify-between">
-                    <div>
-                      <h3 className="text-lg font-bold mb-1">{article.Title}</h3>
-                      <p className="text-sm text-gray-600 mb-2">{article.Name}</p>
-                      <p className="text-sm text-gray-800 text-justify">
-                        {article.Content.substring(0, 200)}...
-                      </p>
-                    </div>
-                    <button
-                      onClick={() => navigate(`/article/${article.$id}`)}
-                      className="w-full py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors mt-2"
-                    >
-                      Read More
-                    </button>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </Slider>
-        )}
-      </div>
-    </div>
-  );
+	return (
+		<div className="bg-orange-50 py-8">
+			<h1 className="text-4xl font-bold text-center text-orange-800 mb-8">
+				Articles By The Students
+			</h1>
+			<div className="container mx-auto px-4">
+				{loading ? (
+					<div className="flex items-center justify-center h-64">
+						<Oval
+							height={50}
+							width={50}
+							color="#f97316"
+							visible={true}
+							ariaLabel="oval-loading"
+							secondaryColor="#f97316"
+							strokeWidth={2}
+							strokeWidthSecondary={2}
+						/>
+					</div>
+				) : (
+					<Slider {...settings}>
+						{articles.map((article, idx) => (
+							<div key={idx} className="p-2">
+								<div className="bg-white shadow-md rounded-lg overflow-hidden flex h-[300px]">
+									<img
+										src={article.img}
+										alt={article.Title}
+										className="w-1/3 object-cover"
+									/>
+									<div className="w-2/3 p-4 flex flex-col justify-between">
+										<div>
+											<h3 className="text-lg font-bold mb-1">
+												{article.Title}
+											</h3>
+											<p className="text-sm text-gray-600 mb-2">
+												{article.Name}
+											</p>
+											<p className="text-sm text-gray-800 text-justify">
+												{article.Content.substring(0, 100)}...
+											</p>
+										</div>
+										<a
+											href={article.Link}
+											target="_blank"
+											className="w-full py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors mt-2 text-center">
+											Read More
+										</a>
+									</div>
+								</div>
+							</div>
+						))}
+					</Slider>
+				)}
+			</div>
+		</div>
+	);
 };
 
 export default Articles;
