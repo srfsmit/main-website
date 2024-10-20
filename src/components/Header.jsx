@@ -3,6 +3,7 @@ import NavLinks from "./NavLinks";
 import Sidebar from "./Sidebar";
 import { FiMenu } from "react-icons/fi";
 import Logo from "../images/srflogo.svg";
+import SMU from "../images/smulogo.jpg";
 
 const Header = () => {
 	const [isSidebarOpen, setSidebarOpen] = useState(false);
@@ -22,7 +23,10 @@ const Header = () => {
 	return (
 		<div className="relative w-full px-4 py-2 bg-orange-500 md:px-16">
 			<div className="flex items-center justify-between">
-				<img src={Logo} width={50} alt="Logo" />
+				<div className="flex gap-4">
+					<img src={Logo} width={50} alt="Logo" className="rounded-md" />
+					<img src={SMU} alt="" />
+				</div>
 				<div className="items-center justify-between hidden md:flex w-[60%]">
 					{links.map((link, idx) => {
 						return (
