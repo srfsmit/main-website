@@ -114,7 +114,7 @@ const Events = () => {
 												{event.Title}
 											</h3>
 											<p className="mt-2 text-sm text-gray-900 text-justify">
-												{event.content}
+												{event.content.substring(0, 300)}...
 											</p>
 											<div className="flex flex-col mt-2 space-y-2">
 												<p className="flex items-center text-sm text-gray-700">
