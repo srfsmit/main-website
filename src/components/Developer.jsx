@@ -24,7 +24,7 @@ const Developer = ({ developer }) => {
 					<p>
 						<strong>Institute email:</strong> {developer.email}
 					</p>
-					<p className="mt-4 italic text-gray-600">
+					<p className="mt-4 italic text-gray-600 text-justify">
 						&quot;{developer.message}&quot;
 					</p>
 					<div className="mt-6 flex space-x-4">
