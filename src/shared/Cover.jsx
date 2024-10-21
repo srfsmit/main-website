@@ -1,6 +1,3 @@
-import React from "react";
-import secondary from "../images/secondary.jpg";
-
 const Cover = () => {
   return (
     <div className="gap-4 p-4 md:flex md:flex-col">
@@ -33,12 +30,12 @@ const Cover = () => {
 
       <div className="justify-between hidden md:grid grid-cols-5 gap-4">
         <img
-          src="https://smu.edu.in/content/dam/manipal/smu/Research/Banner-SRF-001.png"
+          src="https://cloud.appwrite.io/v1/storage/buckets/669ab7a30037bce22e5e/files/6714129800332e09163f/view?project=66998c41001a110db1b6&project=66998c41001a110db1b6&mode=admin"
           alt="1"
           className="h-48 w-full object-cover rounded-tl-full col-span-1"
         />
         <img
-          src={secondary}
+          src="https://cloud.appwrite.io/v1/storage/buckets/66d7412a00285bc117f7/files/6713fdbb001a2a3e8f05/view?project=66998c41001a110db1b6&project=66998c41001a110db1b6&mode=admin"
           alt="2"
           className="h-48 w-full object-cover col-span-1"
         />
