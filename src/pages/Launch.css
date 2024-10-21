@@ -55,7 +55,7 @@
   height: 5px;
   background-color: white;
   border-radius: 50%;
-  animation: explode 1s infinite ease-out;
+  animation: explode 4s infinite ease-out;
 }
 
 .firework:nth-child(1) {

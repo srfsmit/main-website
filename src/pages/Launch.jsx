@@ -28,7 +28,7 @@ const Launch = () => {
     setTimeout(() => {
       setIsFireworksVisible(false); // Stop fireworks
       navigate("/"); // Navigate to home page
-    }, 4500); // 3 seconds of fireworks display
+    }, 9000); // 3 seconds of fireworks display
   };
 
   return (
