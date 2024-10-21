@@ -1,0 +1,106 @@
+/* Main container */
+.launch-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #ff9966, #ff5e62);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Content (Title and Button) */
+.content {
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.launch-button {
+  padding: 15px 30px;
+  background-color: #ff5722;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.launch-button:hover {
+  background-color: #e64a19;
+}
+
+/* Fireworks container */
+.fireworks-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Fireworks */
+.firework {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: white;
+  border-radius: 50%;
+  animation: explode 1s infinite ease-out;
+}
+
+.firework:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.firework:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.firework:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+/* Firework animation keyframes */
+@keyframes explode {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(100);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(150);
+    opacity: 0;
+  }
+}
+
+/* Curtain styling */
+.curtain {
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #ff5722;
+  z-index: 1;
+}
+
+.curtain-left {
+  left: 0;
+}
+
+.curtain-right {
+  right: 0;
+  background-color: #ff5e62;
+}
