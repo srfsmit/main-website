@@ -124,20 +124,7 @@ const Governing = () => {
             <p>Registrar, Sikkim Manipal University</p>
             <p>Email Id: registrar@smu.edu.in</p>
           </div>
-          <div className="p-4 text-white bg-orange-500 rounded-xl">
-            <h3 className="font-bold mb-2">
-              DIRECTOR, DIRECTORATE OF RESEARCH
-            </h3>
-            <p>Dr Kalpana Sharma,</p>
-            <p>Email Id: director.dor@smu.edu.in / kalpana.s@smit.smu.edu.in</p>
-            <p>Phone No: +91 9563205842 | +91 9641580247</p>
-          </div>
-          <div className="p-4 text-white bg-orange-500 rounded-xl">
-            <h3 className="font-bold mb-2">DIRECTOR SMIT</h3>
-            <p>Prof (Dr.) GL Sharma</p>
-            <p>Director, Sikkim Manipal Institute of Technology</p>
-            <p>Email Id: director.smit@smu.edu.in</p>
-          </div>
+          <div className="hidden md:block md:colspan-1"></div>
           <div className="p-4 text-white bg-orange-500 rounded-xl">
             <h3 className="font-bold mb-2">DEAN SMIMS</h3>
             <p>Dr MURALIDHAR V PAI</p>
@@ -147,7 +134,20 @@ const Governing = () => {
             <p>Email: dean@smims.smu.edu.in</p>
             <p>Phone: +91 3592-270535</p>
           </div>
-
+          <div className="p-4 text-white bg-orange-500 rounded-xl">
+            <h3 className="font-bold mb-2">DIRECTOR SMIT</h3>
+            <p>Prof (Dr.) GL Sharma</p>
+            <p>Director, Sikkim Manipal Institute of Technology</p>
+            <p>Email Id: director.smit@smu.edu.in</p>
+          </div>
+          <div className="p-4 text-white bg-orange-500 rounded-xl">
+            <h3 className="font-bold mb-2">
+              DIRECTOR, DIRECTORATE OF RESEARCH
+            </h3>
+            <p>Dr Kalpana Sharma,</p>
+            <p>Email Id: director.dor@smu.edu.in / kalpana.s@smit.smu.edu.in</p>
+            <p>Phone No: +91 9563205842 | +91 9641580247</p>
+          </div>
           <div className="p-4 text-white bg-orange-500 rounded-xl">
             <h3 className="font-bold mb-2">
               ASSOCIATE DIRECTOR (Research) SMIT
