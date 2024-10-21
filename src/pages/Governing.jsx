@@ -158,9 +158,8 @@ const Governing = () => {
           </div>
           <div className="p-4 text-white bg-orange-500 rounded-xl">
             <h3 className="font-bold mb-2">ASSOCIATE DEAN (Research) SMIMS</h3>
-            <p>
-              Dr Luna Adhikari Professor &amp; HOD, Dept of Microbiology, SMIMS
-            </p>
+            <p>Dr Luna Adhikari</p>
+            <p>Professor &amp; HOD, Dept of Microbiology, SMIMS</p>
             <p>Email Id: luna.a@smims.smu.edu.in</p>
             <p>Phone No: 9434864772</p>
           </div>
