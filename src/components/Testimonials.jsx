@@ -71,7 +71,7 @@ const Testimonials = () => {
 									<h3 className="mt-2 text-2xl font-bold text-black">
 										{testimonial.name}
 									</h3>
-									<p className="flex-grow mt-4 text-gray-900">
+									<p className="flex-grow mt-4 text-gray-900 text-justify">
 										{testimonial.content}
 									</p>
 								</div>
