@@ -95,9 +95,9 @@ const Governing = () => {
       institution: "Sikkim Manipal Institute of Medical Sciences (SMIMS)",
     },
     {
-      name: "Bishwapriyo Sen",
+      name: "Mr Bishwapriyo Sen",
       position: "President",
-      tenure: "2023-2024",
+      tenure: "2022-2023",
       institution: "Sikkim Manipal Institute of Technology",
     },
   ];
