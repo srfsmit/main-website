@@ -20,7 +20,7 @@ const Cover = () => {
 
         <div className=" flex-1 hidden md:flex items-end">
           <img
-            src="https://cloud.appwrite.io/v1/storage/buckets/669ab7a30037bce22e5e/files/67169590000a61cff086/view?project=66998c41001a110db1b6&project=66998c41001a110db1b6&mode=admin"
+            src="https://cloud.appwrite.io/v1/storage/buckets/669ab7a30037bce22e5e/files/67cdf5e00012ef184eec/view?project=66998c41001a110db1b6&mode=admin"
             alt="Large"
             className="object-contain w-full h-[400px] rounded-xl"
           />
