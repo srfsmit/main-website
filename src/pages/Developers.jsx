@@ -1,6 +1,7 @@
 import React from "react";
 import kunal from "../images/kunal.jpeg";
 import mayank from "../images/mayank.jpeg";
+import tor from "../images/torgit.jpg";
 import jitam from "../images/jitam.jpg";
 import abhigyan from "../images/abhigyan.jpeg";
 import tanushka from "../images/tanushka.jpeg";
@@ -48,6 +49,12 @@ const DevelopersPage = () => {
 			message:
 				"Being part of the organizing team has been a valuable learning experience. I gained practical skills like using GitHub, which has been essential for collaboration and version control, and explored web development, allowing me to understand the basics of creating websites. Additionally, I learned a lot about team management, from coordinating tasks to ensuring smooth communication between team members. This experience has helped me grow both technical and managerial skills.",
 		},
+		{
+			name: "Torsha G",
+			position: "Developer & Webmaster, President, SRF SMIT (2025-2026)",
+			institution: "Sikkim Manipal Institute of Technology",
+			image: tor,
+			message: "Despite being a student of technology, web development had never really quite piqued my interest until I was asked to become the sole maintainer of this website. However, now that I've finally been made to rise to this occasion, I think web dev can be quite fun sometimes :)"
 		{
 			name: "Abhigyan Borah",
 			position: "Developer (Intern) & Member of Team of Officials, SRF SMIT (2024-2025)",
