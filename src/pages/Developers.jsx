@@ -17,7 +17,7 @@ const DevelopersPage = () => {
 	const developers = [
 		{
 			name: "Kunal Sharma",
-			position: "Senior Developer, President SRF SMIT",
+			position: "Senior Developer, President, SRF SMIT (2024-2025)",
 			registrationNo: "202100033",
 			institution: "Sikkim Manipal Institute of Technology",
 			email: "kunal_202100033@smit.smu.edu.in",
@@ -28,7 +28,7 @@ const DevelopersPage = () => {
 		},
 		{
 			name: "Jitam Bharadwaj",
-			position: "Senior Developer, Executive Board Member SRF SMIT",
+			position: "Senior Developer, Executive Board Member, SRF SMIT (2024-2025)",
 			registrationNo: "202100242",
 			institution: "Sikkim Manipal Institute of Technology",
 			email: "jitam_202100242@smit.smu.edu.in",
@@ -39,7 +39,7 @@ const DevelopersPage = () => {
 		},
 		{
 			name: "Mayank Jaiswal",
-			position: "Intership Manager, Secretary SRF SMIT",
+			position: "Internship Manager, Secretary, SRF SMIT (2024-2025)",
 			registrationNo: "202100103",
 			institution: "Sikkim Manipal Institute of Technology",
 			email: "mayank_202100103@smit.smu.edu.in",
@@ -50,7 +50,7 @@ const DevelopersPage = () => {
 		},
 		{
 			name: "Abhigyan Borah",
-			position: "Developer(Intern), Intern SRF SMIT",
+			position: "Developer (Intern) & Member of Team of Officials, SRF SMIT (2024-2025)",
 			registrationNo: "202200096",
 			institution: "Sikkim Manipal Institute of Technology",
 			email: "abhigyan_202200096@smit.smu.edu.in",
@@ -62,7 +62,7 @@ const DevelopersPage = () => {
 		},
 		{
 			name: "Tanushka Singh",
-			position: "Developer(Intern)",
+			position: "Developer (Intern)",
 			registrationNo: "202200284",
 			institution: "Sikkim Manipal Institute of Technology",
 			email: "tanushka_202200284@smit.smu.edu.in",
@@ -73,7 +73,7 @@ const DevelopersPage = () => {
 		},
 		{
 			name: "Bedangshu Raj Mudiar",
-			position: "Developer(Intern)",
+			position: "Developer (Intern)",
 			registrationNo: "202200319",
 			institution: "Sikkim Manipal Institute of Technology",
 			email: "bedangshu_202200319@smit.smu.edu.in",
@@ -86,7 +86,7 @@ const DevelopersPage = () => {
 		},
 		{
 			name: "Isha Sudarshini",
-			position: "Developer(Intern)",
+			position: "Developer (Intern)",
 			registrationNo: "202200287",
 			institution: "Sikkim Manipal Institute of Technology",
 			email: "isha_202200287@smit.smu.edu.in",
@@ -98,7 +98,7 @@ const DevelopersPage = () => {
 		},
 		{
 			name: " Seedorf Rai",
-			position: "Developer(Intern)",
+			position: "Developer (Intern)",
 			registrationNo: "202200030",
 			institution: "Sikkim Manipal Institute of Technology",
 			email: "Seedorf_20200030@smit.smu.edu.in",
@@ -110,7 +110,7 @@ const DevelopersPage = () => {
 		},
 		{
 			name: "Peela Sharandeep",
-			position: "Developer(Intern), Intern SRF SMIT",
+			position: "Developer (Intern), Intern SRF SMIT",
 			registrationNo: "202200481",
 			institution: "Sikkim Manipal Institute of Technology",
 			email: "Sharan_202200481@smit.smu.edu.in",
@@ -122,7 +122,7 @@ const DevelopersPage = () => {
 		},
 		{
 			name: "Priyanka Lama",
-			position: "Developer(Intern)",
+			position: "Developer (Intern)",
 			registrationNo: "202300064",
 			institution: "Sikkim Manipal Institute of Technology",
 			email: "priyanka_202300064@smit.smu.edu.in",
@@ -132,8 +132,8 @@ const DevelopersPage = () => {
 				"Collaborating with such a talented and dedicated team has been an invaluable experience. I've learned a lot from everyone involved and the experience i have gained.",
 		},
 		{
-			name: " Pravesh Sharma",
-			position: "Developer(Intern)",
+			name: "Pravesh Sharma",
+			position: "Developer (Intern)",
 			registrationNo: "202300002",
 			institution: "Sikkim Manipal Institute of Technology",
 			email: "Pravesh_202300002@smit.smu.edu.in",
