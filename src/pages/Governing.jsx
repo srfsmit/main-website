@@ -3,93 +3,101 @@ import React from "react";
 const Governing = () => {
   const members = [
     {
-      name: "Mr. Kunal Sharma",
+      name: "Ms. Torsha G.",
       position: "President",
-      institution:
-        "Department of Computer Science & Engineering, Sikkim Manipal Institute of Technology",
+      institution: "Department of Computer Science & Engineering, Sikkim Manipal Institute of Technology (SMIT)",
     },
     {
-      name: "Mr Shrutarsi Saha",
+      name: "Mr. Pranit Rai",
       position: "President",
-      institution: "Sikkim Manipal Institute of Medical Sciences (SMIMS)",
+      institution: "Department of Humanities and Social Sciences (FHSSLA), Sikkim Manipal University (SMU)",
     },
-    {
-      name: "Mr Saroj Khatiwada",
-      position: "Vice President",
-      institution:
-        "Department of Biotechnology, Sikkim Manipal Institute of Medical Sciences (SMIMS)",
-    },
-    {
-      name: "Mr. Mayank Jaiswal",
+      {
+      name: "Mr. Anirudh Jaiswal",
       position: "Secretary",
-      institution:
-        "Department of Mechanical Engineering, Sikkim Manipal Institute of Technology",
+      institution: "Department of Electronics and Communication Engineering, Sikkim Manipal Institute of Technology (SMIT)",
     },
     {
-      name: "Ms. Ankita Banerjee",
+      name: "Ms. Anupriya Chettri",
+      position: "Secretary",
+      institution: "Sikkim Manipal College of Physiotherapy (SMCPT)",
+    },
+    {
+      name: "Ms. Priya Gurung",
+      position: "Student Coordinator",
+      institution: "Sikkim Manipal College of Nursing (SMCON)",
+    },
+    {
+      name: "Mr. Marli Bagra",
       position: "Executive Board Member",
-      institution:
-        "Department of Management Studies, Sikkim Manipal Institute of Technology",
+      institution: "Department of Civil Engineering, Sikkim Manipal Institute of Technology (SMIT)",
     },
     {
+      name: "Ms. Sonia Chhetri",
+      position: "Executive Board Member",
+      institution: "Sikkim Manipal College of Nursing (SMCON)",
+    },
+    {
+      name: "Mr. Anay Kusre",
+      position: "Executive Board Member",
+      institution: "Department of Mechanical Engineering, Sikkim Manipal Institute of Technology (SMIT)",
+    },
+    {
+      name: "Ms. Kezia Chettri",
+      position: "Executive Board Member",
+      institution: "Sikkim Manipal College of Physiotherapy (SMCPT)",
+    },
+    {
+      name: "Ms. Ritusree Das",
+      position: "Executive Board Member",
+      institution: "Department of Computer Science & Engineering, Sikkim Manipal Institute of Technology (SMIT)",
+    },
+     {
       name: "Ms. Ekla Limboo",
       position: "Executive Board Member",
       institution: "Department of Allied Health Professions",
     },
     {
-      name: "Mr. Jitam Bharadwaj",
+      name: "Mr. Sudip Singha",
       position: "Executive Board Member",
-      institution:
-        "Department of Artificial Intelligence (AI) & Data Science (DS), Sikkim Manipal Institute of Technology",
+      institution: "Department of Information Technology, Sikkim Manipal Institute of Technology (SMIT)",
+    },
+     {
+      name: "Mr. Tenhang Limboo",
+      position: "Executive Board Member",
+      institution: "Department of Medical Biotechnology, Sikkim Manipal Insitute of Medical Sciences (SMIMS)",
     },
     {
-      name: "Mr. Marli Bagra",
+      name: "Ms. Pritika Biswas",
       position: "Executive Board Member",
-      institution:
-        "Department of Civil Engineering, Sikkim Manipal Institute of Technology",
+      institution: "Department of Artificial Intelligence (AI) & Data Science (DS), Sikkim Manipal Institute of Technology (SMIT)",
     },
     {
-      name: "Mr. Mriganka Dey",
+      name: "Mr. Stephenas Gurung",
       position: "Executive Board Member",
-      institution:
-        "Department of Computer Science & Engineering, Sikkim Manipal Institute of Technology",
+      institution: "Department of Hospital Administration (DOHA)",
     },
     {
-      name: "Ms. Neha Swami",
+      name: "Mr. Rinchen Dorjee Bhutia",
       position: "Executive Board Member",
-      institution: "Sikkim Manipal College of Physiotherapy (SMCPT)",
+      institution: "Department of Humanities and Social Sciences (FHSSLA),Sikkim Manipal University (SMU)",
     },
     {
-      name: "Ms. Pranit Rai",
-      position: "Executive Board Member",
-      institution: "Department of Humanities and Social Sciences (FHSSLA)",
-    },
-    {
-      name: "Ms. Priya Gurung",
-      position: "Executive Board Member",
-      institution: "Sikkim Manipal College of Nursing (SMCON)",
-    },
-    {
-      name: "Ms. Samhita Rajguru",
+      name: "Mr. Nilay Dhakal ",
       position: "Executive Board Member",
       institution: "Sikkim Manipal Institute of Medical Sciences (SMIMS)",
-    },
-    {
-      name: "Ms. Tshering Dolma Bhutia",
-      position: "Executive Board Member",
-      institution: "Master of Hospital Administration (MHA)",
-    },
+    }
   ];
 
   const exMembers = [
     {
-      name: "Dr Kartikeya Ojha",
+      name: "Dr. Kartikeya Ojha",
       position: "President, Founder of SRF SMU",
       tenure: "2021-2022",
       institution: "Sikkim Manipal Institute of Medical Sciences (SMIMS)",
     },
     {
-      name: "Dr Shreya Nandan",
+      name: "Dr. Shreya Nandan",
       position: "President",
       tenure: "2022-2023",
       institution: "Sikkim Manipal Institute of Medical Sciences (SMIMS)",
@@ -98,8 +106,20 @@ const Governing = () => {
       name: "Mr Biswapriyo Sen",
       position: "President",
       tenure: "2022-2023",
-      institution: "Sikkim Manipal Institute of Technology",
+      institution: "Sikkim Manipal Institute of Technology (SMIT)",
     },
+     {
+      name: "Mr. Kunal Sharma",
+      position: "President",
+      tenure: "2024-2025",
+      institution: "Sikkim Manipal Institute of Technology (SMIT)",
+    },
+    {
+      name: "Mr. Mayank Jaiswal",
+      position: "Secretary",
+      tenure: "2024-2025",
+      institution: "Sikkim Manipal Institute of Technology (SMIT)",
+    }
   ];
 
   return (
@@ -116,57 +136,80 @@ const Governing = () => {
             <h3 className="font-bold mb-2">VICE CHANCELLOR</h3>
             <p>Air Vice Marshal (Dr.) Dilip Chandra Agarwal, VSM</p>
             <p>Vice Chancellor, Sikkim Manipal University</p>
-            <p>Email Id: vc@smu.edu.in</p>
+            <p>Email ID: vc@smu.edu.in</p>
           </div>
           <div className="p-4 text-white bg-orange-500 rounded-xl">
             <h3 className="font-bold mb-2">REGISTRAR</h3>
             <p>Prof (Dr.) Karma Sonam Sherpa</p>
             <p>Registrar, Sikkim Manipal University</p>
-            <p>Email Id: registrar@smu.edu.in</p>
+            <p>Email ID: registrar@smu.edu.in</p>
           </div>
           <div className="hidden md:block md:colspan-1"></div>
           <div className="p-4 text-white bg-orange-500 rounded-xl">
-            <h3 className="font-bold mb-2">DEAN SMIMS</h3>
-            <p>Dr MURALIDHAR V PAI</p>
+            <h3 className="font-bold mb-2">DEAN, SMIMS</h3>
+            <p>Dr. Muralidhar V Pai</p>
             <p>MBBS, DGO, MD (OBG), FICOG, FICMCH</p>
             <p>Dean, Sikkim Manipal Institute of Medical Sciences</p>
             <p>Sikkim Manipal University</p>
-            <p>Email: dean@smims.smu.edu.in</p>
-            <p>Phone: +91 3592-270535</p>
+            <p>Email ID: dean@smims.smu.edu.in</p>
+            <p>Phone No.: +91 3592-270535</p>
           </div>
           <div className="p-4 text-white bg-orange-500 rounded-xl">
-            <h3 className="font-bold mb-2">DIRECTOR SMIT</h3>
-            <p>Prof (Dr.) GL Sharma</p>
+            <h3 className="font-bold mb-2">DIRECTOR,  SMIT</h3>
+            <p>Prof. (Dr.) GL Sharma</p>
             <p>Director, Sikkim Manipal Institute of Technology</p>
-            <p>Email Id: director.smit@smu.edu.in</p>
+            <p>Email ID: director.smit@smu.edu.in</p>
           </div>
           <div className="p-4 text-white bg-orange-500 rounded-xl">
-            <h3 className="font-bold mb-2">DIRECTOR R&D</h3>
-            <p>Dr Kalpana Sharma,</p>
+            <h3 className="font-bold mb-2">DIRECTOR, R&D</h3>
+            <p>Dr. Kalpana Sharma,</p>
             <p>Director, Directorate of Research, Sikkim Manipal University</p>
-            <p>Email Id: director.dor@smu.edu.in</p>
+            <p>Email ID: director.dor@smu.edu.in</p>
             <p>Phone No: +91 9563205842 | +91 9641580247</p>
           </div>
           <div className="p-4 text-white bg-orange-500 rounded-xl">
-            <h3 className="font-bold mb-2">
-              ASSOCIATE DIRECTOR (Research) SMIT
+            <h3 className="font-bold mb-2">ASSOCIATE DIRECTOR (RESEARCH), SMIT
             </h3>
-            <p>Dr. Chandrasekhar Bhuiyan,</p>
-            <p>Professor &amp; HOD, Dept of Civil Engineering, SMIT</p>
-            <p>Email Id: hod.ce@smit.smu.edu.in</p>
-            <p>Phone No. 9836562555</p>
+            <p>Prof. (Dr.) Chandrasekhar Bhuiyan,</p>
+            <p>Professor &amp; HOD, Dept of Civil Engineering, Sikkim Manipal Institute of Technology</p>
+            <p>Email ID: hod.ce@smit.smu.edu.in</p>
+            <p>Phone No: 9836562555</p>
           </div>
           <div className="p-4 text-white bg-orange-500 rounded-xl">
-            <h3 className="font-bold mb-2">ASSOCIATE DEAN (Research) SMIMS</h3>
-            <p>Dr Luna Adhikari</p>
+            <h3 className="font-bold mb-2">ASSOCIATE DEAN (RESEARCH), SMIMS</h3>
+            <p>Dr. Luna Adhikari,</p>
             <p>Professor &amp; HOD, Dept of Microbiology, SMIMS</p>
-            <p>Email Id: luna.a@smims.smu.edu.in</p>
+            <p>Email ID: luna.a@smims.smu.edu.in</p>
             <p>Phone No: 9434864772</p>
+          </div>
+          <div className="p-4 text-white bg-orange-500 rounded-xl">
+            <h3 className="font-bold mb-2"> HEAD OF DEPT., COMPUTER APPLICATIONS, SMIT
+            </h3>
+            <p>Prof. (Dr.) Samarjeet Borah</p>
+            <p>Professor & Head, Department of Computer Application, Sikkim Manipal Institute of Technology</p>
+            <p>Email ID: samarjeet.b@smit.smu.edu.in</p>
+            <p>Phone No: 9832621898</p>
+          </div>
+          <div className="p-4 text-white bg-orange-500 rounded-xl">
+            <h3 className="font-bold mb-2"> REPRESENTATIVE, DIRECTORATE OF RESEARCH, SMU
+            </h3>
+            <p>Prof. (Dr.) Rubi Dey</p>
+            <p>Professor, Department of Physiology, Sikkim Manipal Institute of Medical Sciences</p>
+            <p>Email ID: rubi.d@smims.smu.edu.in</p>
+            <p>Phone No: 9434709969</p>
+          </div>
+          <div className="p-4 text-white bg-orange-500 rounded-xl">
+            <h3 className="font-bold mb-2"> ADVISORY COUNCIL MEMBER
+            </h3>
+            <p>Prof. (Dr.) Bidita Khandelwal</p>
+            <p>Professor, Department of Medicine, CRH & Sikkim Manipal Institute of Medical Sciences</p>
+            <p>Email ID: bidita.k@smims.smu.edu.in</p>
+            <p>Phone No: 9800865560</p>
           </div>
         </div>
       </section>
 
-      {/* Chairperson SRF section */}
+      {/* Chairperson SRF Section */}
       <section className="mb-12">
         <h2 className="text-3xl mb-4">Chairperson SRF</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
