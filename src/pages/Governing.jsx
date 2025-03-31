@@ -161,7 +161,7 @@ const Governing = () => {
             <p>Email ID: director.smit@smu.edu.in</p>
           </div>
           <div className="p-4 text-white bg-orange-500 rounded-xl">
-            <h3 className="font-bold mb-2">DIRECTOR, R&D</h3>
+            <h3 className="font-bold mb-2">DIRECTOR, DOR</h3>
             <p>Dr. Kalpana Sharma,</p>
             <p>Director, Directorate of Research, Sikkim Manipal University</p>
             <p>Email ID: director.dor@smu.edu.in</p>
