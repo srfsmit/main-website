@@ -41,13 +41,13 @@ const Cover = () => {
         />
 
         <img
-          src="https://cloud.appwrite.io/v1/storage/buckets/66d7412a00285bc117f7/files/6713ffb800088c2d9d8e/preview?project=66998c41001a110db1b6"
+          src="https://fra.cloud.appwrite.io/v1/storage/buckets/66d7412a00285bc117f7/files/6713fde100259a13c009/view?project=66998c41001a110db1b6&mode=admin"
           alt="3"
           className="h-48 w-full object-cover col-span-1"
         />
 
         <img
-          src="https://smu.edu.in/content/dam/manipal/smu/Research/Banner-SRF-001.png"
+          src="https://fra.cloud.appwrite.io/v1/storage/buckets/66d7412a00285bc117f7/files/6713fe140010b5906fba/view?project=66998c41001a110db1b6&mode=admin"
           alt="5"
           className="h-48 w-full object-cover rounded-br-full col-span-2"
         />
