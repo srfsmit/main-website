@@ -10,17 +10,17 @@ const Footer = () => {
 			<div className="flex text-2xl text-white">
 				<a
 					target="_blank"
-					href="https://www.linkedin.com/in/srf-smit-2206b4306?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+					href="https://www.linkedin.com/in/srf-smit-2206b4306">
 					<CiLinkedin className="cursor-pointer" />
 				</a>
 				<a
 					target="_blank"
-					href="https://www.instagram.com/srf_smit/profilecard/?igsh=OGNsODg2eGI3NWNv">
+					href="https://www.instagram.com/srf_smit">
 					<CiInstagram className="cursor-pointer" />
 				</a>
 				<a
 					target="_blank"
-					href="https://www.instagram.com/smu_srf?igsh=MWJ3cjl5cGM4cnI1eg==">
+					href="https://www.instagram.com/smu_srf">
 					<CiInstagram className="cursor-pointer" />
 				</a>
 			</div>
