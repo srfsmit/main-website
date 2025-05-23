@@ -55,7 +55,7 @@ const Cover = () => {
         <img
           src="https://fra.cloud.appwrite.io/v1/storage/buckets/66d7412a00285bc117f7/files/6713fe140010b5906fba/view?project=66998c41001a110db1b6&mode=admin"
           alt="5"
-          className="h-48 w-full object-cover rounded-tl-full col-span-1"
+          className="h-48 w-full object-cover rounded-br-full col-span-1"
         />
       </div>
     </div>
