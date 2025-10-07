@@ -50,27 +50,35 @@ const Developer = ({ developer, batch: batchProp }) => {
 						</div>
 					)}
 					<div className="mt-6 flex space-x-4">
-						<a
-							href={developer.linkedin}
-							target="_blank"
-							rel="noopener noreferrer"
-							className="text-orange-500  px-4 py-2 rounded hover:text-orange-800 transition duration-300 text-3xl hover:cursor-pointer">
-							<FaLinkedin />
-						</a>
-						<a
-							href={developer.instagram}
-							target="_blank"
-							rel="noopener noreferrer"
-							className="text-orange-500  px-4 py-2 rounded hover:text-orange-800 transition duration-300 text-3xl hover:cursor-pointer">
-							<FaInstagram />
-						</a>
-						<a
-							href={developer.github}
-							target="_blank"
-							rel="noopener noreferrer"
-							className="text-orange-500  px-4 py-2 rounded hover:text-orange-800 transition duration-300 text-3xl hover:cursor-pointer">
-							<FaGithub />
-						</a>
+						{developer.linkedin && (
+							<a
+								href={developer.linkedin}
+								target="_blank"
+								rel="noopener noreferrer"
+								className="text-orange-500  px-4 py-2 rounded hover:text-orange-800 transition duration-300 text-3xl hover:cursor-pointer">
+								<FaLinkedin />
+							</a>
+						)}
+
+						{developer.instagram && (
+							<a
+								href={developer.instagram}
+								target="_blank"
+								rel="noopener noreferrer"
+								className="text-orange-500  px-4 py-2 rounded hover:text-orange-800 transition duration-300 text-3xl hover:cursor-pointer">
+								<FaInstagram />
+							</a>
+						)}
+
+						{developer.github && (
+							<a
+								href={developer.github}
+								target="_blank"
+								rel="noopener noreferrer"
+								className="text-orange-500  px-4 py-2 rounded hover:text-orange-800 transition duration-300 text-3xl hover:cursor-pointer">
+								<FaGithub />
+							</a>
+						)}
 					</div>
 				</div>
 			</div>
