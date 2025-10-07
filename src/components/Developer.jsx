@@ -1,13 +1,8 @@
 import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa6";
 const Developer = ({ developer, batch: batchProp }) => {
-	// runtime debug: helps surface whether `developer.batch` is defined
-	// (will appear in the browser console when components mount)
 	try {
-		// eslint-disable-next-line no-console
 		console.debug('Developer props:', developer);
-		// eslint-disable-next-line no-console
 		console.debug('Developer keys:', Object.keys(developer || {}));
-		// eslint-disable-next-line no-console
 		console.debug('batch prop:', batchProp);
 	} catch (e) {}
 
