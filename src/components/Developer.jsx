@@ -1,5 +1,18 @@
-import { FaLinkedin, FaInstagram } from "react-icons/fa6";
-const Developer = ({ developer }) => {
+import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa6";
+const Developer = ({ developer, batch: batchProp }) => {
+	// runtime debug: helps surface whether `developer.batch` is defined
+	// (will appear in the browser console when components mount)
+	try {
+		// eslint-disable-next-line no-console
+		console.debug('Developer props:', developer);
+		// eslint-disable-next-line no-console
+		console.debug('Developer keys:', Object.keys(developer || {}));
+		// eslint-disable-next-line no-console
+		console.debug('batch prop:', batchProp);
+	} catch (e) {}
+
+	const finalBatch = batchProp ?? developer?.batch ?? null;
+
 	return (
 		<div className="bg-white shadow-lg rounded-lg overflow-hidden border border-orange-500 p-6">
 			<div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -16,17 +29,31 @@ const Developer = ({ developer }) => {
 						<strong>Position:</strong> {developer.position}
 					</p>
 					<p>
-						<strong>Registration No:</strong> {developer.registrationNo}
+						<strong>Batch:</strong>{' '}
+						<span
+							className="text-black font-normal"
+							title={finalBatch ?? 'undefined'}
+						>
+							{finalBatch ?? 'N/A'}
+						</span>
 					</p>
 					<p>
 						<strong>Institution:</strong> {developer.institution}
 					</p>
 					<p>
-						<strong>Institute email:</strong> {developer.email}
+						<strong>Email:</strong> {developer.email}
 					</p>
 					<p className="mt-4 italic text-gray-600 text-justify">
 						&quot;{developer.message}&quot;
 					</p>
+					{finalBatch === null && (
+						<div className="mt-4 p-2 bg-gray-100 text-sm text-red-600">
+							<div className="font-semibold">Developer prop debug (batch missing)</div>
+							<div className="text-xs text-gray-700">keys: {Object.keys(developer || {}).join(', ')}</div>
+							<div className="text-xs text-gray-700">batch prop: {String(batchProp)}</div>
+							<pre className="mt-2 overflow-auto">{JSON.stringify(developer, null, 2)}</pre>
+						</div>
+					)}
 					<div className="mt-6 flex space-x-4">
 						<a
 							href={developer.linkedin}
@@ -41,6 +68,13 @@ const Developer = ({ developer }) => {
 							rel="noopener noreferrer"
 							className="text-orange-500  px-4 py-2 rounded hover:text-orange-800 transition duration-300 text-3xl hover:cursor-pointer">
 							<FaInstagram />
+						</a>
+						<a
+							href={developer.github}
+							target="_blank"
+							rel="noopener noreferrer"
+							className="text-orange-500  px-4 py-2 rounded hover:text-orange-800 transition duration-300 text-3xl hover:cursor-pointer">
+							<FaGithub />
 						</a>
 					</div>
 				</div>
