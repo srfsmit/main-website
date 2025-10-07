@@ -53,7 +53,7 @@ const DevelopersPage = () => {
 			position: "Developer & Webmaster, President, SRF SMIT (2025-2026)",
 			batch: "2026",
 			institution: "Sikkim Manipal Institute of Technology",
-			email: "grantersofgardis@protonmail.com",
+			email: "grantersofdardis@protonmail.com",
 			github: "https://github.com/dianosaur12",
 			image: tor,
 			message: "Despite being a student of technology, web development had never really quite piqued my interest until I was asked to become the sole maintainer of this website. However, now that I've finally been made to rise to this occasion, I think web dev can be quite fun sometimes :)",
