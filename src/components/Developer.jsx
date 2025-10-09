@@ -55,7 +55,7 @@ const Developer = ({ developer, batch: batchProp }) => {
 								href={developer.linkedin}
 								target="_blank"
 								rel="noopener noreferrer"
-								className="text-orange-500  px-4 py-2 rounded hover:text-orange-800 transition duration-300 text-3xl hover:cursor-pointer">
+								className="text-orange-500 pr-4 py-2 rounded hover:text-orange-800 transition duration-300 text-3xl hover:cursor-pointer">
 								<FaLinkedin />
 							</a>
 						)}
@@ -65,7 +65,9 @@ const Developer = ({ developer, batch: batchProp }) => {
 								href={developer.instagram}
 								target="_blank"
 								rel="noopener noreferrer"
-								className="text-orange-500  px-4 py-2 rounded hover:text-orange-800 transition duration-300 text-3xl hover:cursor-pointer">
+								className={`text-orange-500 py-2 rounded hover:text-orange-800 transition duration-300 text-3xl hover:cursor-pointer ${
+									developer.linkedin ? 'px-4' : 'pr-4'
+								}`}>
 								<FaInstagram />
 							</a>
 						)}
@@ -75,7 +77,9 @@ const Developer = ({ developer, batch: batchProp }) => {
 								href={developer.github}
 								target="_blank"
 								rel="noopener noreferrer"
-								className="text-orange-500  px-4 py-2 rounded hover:text-orange-800 transition duration-300 text-3xl hover:cursor-pointer">
+								className={`text-orange-500 py-2 rounded hover:text-orange-800 transition duration-300 text-3xl hover:cursor-pointer ${
+									developer.linkedin || developer.instagram ? 'px-4' : 'pr-4'
+								}`}>
 								<FaGithub />
 							</a>
 						)}
