@@ -18,11 +18,21 @@ const Sidebar = ({ links, isOpen, toggleSidebar }) => {
 			<ul className="mt-8">
 				{links.map((link) => (
 					<li key={link.path} className="px-4 py-2 hover:bg-orange-400">
-						<Link
-							to={link.path}
-							className="px-4 py-2 text-white hover:bg-orange-400">
-							{link.title}
-						</Link>
+						{link.external ? (
+							<a
+								href={link.path}
+								target="_blank"
+								rel="noopener noreferrer"
+								className={`px-4 py-2 hover:bg-orange-400 text-white ${link.highlight ? 'font-bold border-2 border-white rounded-md' : ''}`}>
+								{link.title}
+							</a>
+						) : (
+							<Link
+								to={link.path}
+								className="px-4 py-2 text-white hover:bg-orange-400">
+								{link.title}
+							</Link>
+						)}
 					</li>
 				))}
 			</ul>
