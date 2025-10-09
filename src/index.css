@@ -40,3 +40,22 @@
 .slick-next:before {
 	color: black !important; /* Ensure the arrow icons are also black */
 }
+
+/* Bouncy animation for highlighted nav links */
+@keyframes subtle-bounce {
+	0%, 100% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.05);
+	}
+}
+
+.bouncy-highlight {
+	animation: subtle-bounce 2s ease-in-out infinite;
+}
+
+.bouncy-highlight:hover {
+	animation: none;
+	transform: scale(1.08);
+}

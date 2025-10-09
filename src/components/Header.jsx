@@ -14,6 +14,7 @@ const Header = () => {
 		{ title: "Articles", path: "/articles" },
 		{ title: "Events", path: "/events" },
 		{ title: "Gallery", path: "/gallery" },
+		{ title: "SRF Colloquium '25", path: "https://shorturl.at/xmUL7", external: true, highlight: true },
 	];
 
 	const toggleSidebar = () => {
