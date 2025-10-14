@@ -50,17 +50,17 @@ const Article = () => {
 
 	return (
 		<div className="container flex flex-col gap-4 p-4 mx-auto">
-			<h1 className="text-3xl font-bold text-orange-800">{article.Title}</h1>
+			<h1 className="text-3xl font-bold text-orange-800 dark:text-gray-100">{article.Title}</h1>
 			<div className="flex flex-col items-center">
 				<img
 					src={article.img}
 					alt={article.Title}
 					className="object-cover w-[300px] h-auto my-4"
 				/>
-				<p className="mt-2 text-xl font-bold text-gray-700">{article.Name}</p>
+				<p className="mt-2 text-xl font-bold text-gray-700 dark:text-gray-100">{article.Name}</p>
 			</div>
 
-			<p className="text-lg text-gray-900 md:px-10 ">{article.Content}</p>
+			<p className="text-lg text-gray-900 dark:text-gray-200 md:px-10 ">{article.Content}</p>
 		</div>
 	);
 };

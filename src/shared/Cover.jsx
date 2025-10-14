@@ -6,16 +6,16 @@ const Cover = () => {
           className="flex flex-col flex-1 gap-2 text-5xl font-bold tracking-widest uppercase md:text-8xl"
           id="srf"
         >
-          <div>
-            <span className="text-orange-500">S</span>tudent
+          <div className="dark:text-gray-400">
+            <span className="text-orange-500 dark:text-white">S</span>tudent
           </div>
-          <div>
-            <span className="text-orange-500">R</span>esearch
+          <div className="dark:text-gray-400">
+            <span className="text-orange-500 dark:text-white">R</span>esearch
           </div>
-          <div>
-            <span className="text-orange-500">F</span>orum
+          <div className="dark:text-gray-400">
+            <span className="text-orange-500 dark:text-white">F</span>orum
           </div>
-          <div className="mx-100">SMU</div>
+          <div className="mx-100 dark:text-gray-400">SMU</div>
         </div>
 
         <div className=" flex-1 hidden md:flex items-end">

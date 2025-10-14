@@ -79,8 +79,8 @@ const Articles = () => {
 	};
 
 	return (
-		<div className="bg-orange-50 py-8">
-			<h1 className="text-4xl font-bold text-center text-orange-800 mb-8">
+		<div className="bg-orange-50 dark:bg-gray-800 article py-8">
+			<h1 className="text-4xl font-bold text-center text-orange-800 dark:text-gray-200 mb-8">
 				Articles By The Students
 			</h1>
 			<div className="container mx-auto px-4">
@@ -101,7 +101,7 @@ const Articles = () => {
 					<Slider {...settings}>
 						{articles.map((article, idx) => (
 							<div key={idx} className="p-2">
-								<div className="bg-white shadow-md rounded-lg overflow-hidden flex h-[300px]">
+								<div className="bg-white dark:bg-gray-500 shadow-md rounded-lg overflow-hidden flex h-[300px]">
 									<img
 										src={article.img}
 										alt={article.Title}
@@ -109,20 +109,20 @@ const Articles = () => {
 									/>
 									<div className="w-2/3 p-4 flex flex-col justify-between">
 										<div>
-											<h3 className="text-lg font-bold mb-1">
+											<h3 className="text-lg font-bold mb-1 dark:text-gray-300">
 												{article.Title}
 											</h3>
-											<p className="text-sm text-gray-600 mb-2">
+											<p className="text-sm text-gray-600 dark:text-gray-300 mb-2">
 												{article.Name}
 											</p>
-											<p className="text-sm text-gray-800 text-justify">
+											<p className="text-sm text-gray-800 dark:text-gray-300 text-justify">
 												{article.Content.substring(0, 100)}...
 											</p>
 										</div>
 										<a
 											href={article.Link}
 											target="_blank"
-											className="w-full py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors mt-2 text-center">
+											className="w-full py-2 bg-orange-500 dark:bg-gray-900 text-white rounded-lg hover:bg-orange-600 dark:hover:bg-gray-500 transition-colors mt-2 text-center">
 											Read More
 										</a>
 									</div>

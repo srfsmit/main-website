@@ -56,13 +56,13 @@ const PhotoGallery = () => {
 	if (loading) {
 		return (
 			<div className="flex items-center justify-center h-64">
-				<div className="w-12 h-12 border-4 border-orange-500 rounded-full animate-spin border-t-transparent"></div>
+				<div className="w-12 h-12 border-4 border-orange-500 dark:border-gray-700 rounded-full animate-spin border-t-transparent"></div>
 			</div>
 		);
 	}
 
 	if (error) {
-		return <div className="text-red-500">Error: {error}</div>;
+		return <div className="text-red-500 dark:text-gray-200">Error: {error}</div>;
 	}
 
 	if (!photos.length) {
@@ -71,7 +71,7 @@ const PhotoGallery = () => {
 
 	return (
 		<div className="container mx-auto px-4 py-8">
-			<h1 className="text-3xl font-bold text-orange-800 mb-8 text-center">
+			<h1 className="text-3xl font-bold text-orange-800 dark:text-gray-300 mb-8 text-center">
 				SRF Gallery
 			</h1>
 			<div className="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-4">
@@ -83,7 +83,7 @@ const PhotoGallery = () => {
 									storage.getFilePreview("66d7412a00285bc117f7", photo.$id).href
 								} // Fetch file preview URL
 								alt={photo.name || "Image"}
-								className="w-full h-auto object-cover rounded-lg shadow-md transition-all duration-300 border-2 border-[#f97316]"
+								className="w-full h-auto object-cover rounded-lg shadow-md transition-all duration-300 border-2 border-[#f97316] dark:border-gray-300"
 							/>
 						</div>
 					</div>
@@ -94,16 +94,16 @@ const PhotoGallery = () => {
 			<div className="flex justify-center mt-8 space-x-4">
 				<button
 					onClick={handlePrevPage}
-					className="px-4 py-2 bg-orange-500 text-white rounded-md hover:bg-orange-600"
+					className="px-4 py-2 bg-orange-500 dark:bg-gray-900 text-white rounded-md hover:bg-orange-600 dark:hover:bg-gray-700"
 					disabled={currentPage === 1}>
 					Previous
 				</button>
-				<span className="text-lg text-orange-800">
+				<span className="text-lg text-orange-800 dark:text-gray-200">
 					Page {currentPage} of {totalPages}
 				</span>
 				<button
 					onClick={handleNextPage}
-					className="px-4 py-2 bg-orange-500 text-white rounded-md hover:bg-orange-600"
+					className="px-4 py-2 bg-orange-500 text-white rounded-md hover:bg-orange-600 dark:bg-gray-900 dark:hover:bg-gray-700"
 					disabled={currentPage === totalPages}>
 					Next
 				</button>

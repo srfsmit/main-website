@@ -32,7 +32,7 @@ const Launch = () => {
   };
 
   return (
-    <div className="launch-container">
+    <div className="launch-container dark:bg-gray-900">
       {!isLaunched && (
         <div className="content">
           <h1 className="title">Welcome to SMU SRF</h1>

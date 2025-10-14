@@ -124,28 +124,28 @@ const Governing = () => {
 
   return (
     <div className="container mx-auto px-4">
-      <h1 className="text-3xl md:text-5xl font-bold text-orange-800 font-satoshi text-center mb-8">
+      <h1 className="text-3xl md:text-5xl font-bold text-orange-800 dark:text-gray-200 font-satoshi text-center mb-8">
         Governing Council
       </h1>
 
       {/* University Leadership section */}
       <section className="mb-12">
-        <h2 className="text-3xl mb-4">Leadership</h2>
+        <h2 className="text-3xl mb-4 dark:text-gray-200">Leadership</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div className="p-4 text-white bg-orange-500 rounded-xl">
+          <div className="p-4 text-white bg-orange-500 dark:bg-gray-900 rounded-xl">
             <h3 className="font-bold mb-2">VICE CHANCELLOR</h3>
             <p>Air Vice Marshal (Dr.) Dilip Chandra Agarwal, VSM</p>
             <p>Vice Chancellor, Sikkim Manipal University</p>
             <p>Email ID: vc@smu.edu.in</p>
           </div>
-          <div className="p-4 text-white bg-orange-500 rounded-xl">
+          <div className="p-4 text-white bg-orange-500 dark:bg-gray-900 rounded-xl">
             <h3 className="font-bold mb-2">REGISTRAR</h3>
             <p>Prof (Dr.) Karma Sonam Sherpa</p>
             <p>Registrar, Sikkim Manipal University</p>
             <p>Email ID: registrar@smu.edu.in</p>
           </div>
           <div className="hidden md:block md:colspan-1"></div>
-          <div className="p-4 text-white bg-orange-500 rounded-xl">
+          <div className="p-4 text-white bg-orange-500 dark:bg-gray-900 rounded-xl">
             <h3 className="font-bold mb-2">DEAN, SMIMS</h3>
             <p>Dr. Muralidhar V Pai</p>
             <p>MBBS, DGO, MD (OBG), FICOG, FICMCH</p>
@@ -154,20 +154,20 @@ const Governing = () => {
             <p>Email ID: dean@smims.smu.edu.in</p>
             <p>Phone No.: +91 3592-270535</p>
           </div>
-          <div className="p-4 text-white bg-orange-500 rounded-xl">
+          <div className="p-4 text-white bg-orange-500 dark:bg-gray-900 rounded-xl">
             <h3 className="font-bold mb-2">DIRECTOR,  SMIT</h3>
             <p>Prof. (Dr.) GL Sharma</p>
             <p>Director, Sikkim Manipal Institute of Technology</p>
             <p>Email ID: director.smit@smu.edu.in</p>
           </div>
-          <div className="p-4 text-white bg-orange-500 rounded-xl">
+          <div className="p-4 text-white bg-orange-500 dark:bg-gray-900 rounded-xl">
             <h3 className="font-bold mb-2">DIRECTOR, DOR</h3>
             <p>Dr. Kalpana Sharma,</p>
             <p>Director, Directorate of Research, Sikkim Manipal University</p>
             <p>Email ID: director.dor@smu.edu.in</p>
             <p>Phone No: +91 9563205842 | +91 9641580247</p>
           </div>
-          <div className="p-4 text-white bg-orange-500 rounded-xl">
+          <div className="p-4 text-white bg-orange-500 dark:bg-gray-900 rounded-xl">
             <h3 className="font-bold mb-2">ASSOCIATE DIRECTOR (RESEARCH), SMIT
             </h3>
             <p>Prof. (Dr.) Chandrasekhar Bhuiyan,</p>
@@ -175,14 +175,14 @@ const Governing = () => {
             <p>Email ID: hod.ce@smit.smu.edu.in</p>
             <p>Phone No: 9836562555</p>
           </div>
-          <div className="p-4 text-white bg-orange-500 rounded-xl">
+          <div className="p-4 text-white bg-orange-500 dark:bg-gray-900 rounded-xl">
             <h3 className="font-bold mb-2">ASSOCIATE DEAN (RESEARCH), SMIMS</h3>
             <p>Dr. Luna Adhikari,</p>
             <p>Professor &amp; HOD, Dept of Microbiology, SMIMS</p>
             <p>Email ID: luna.a@smims.smu.edu.in</p>
             <p>Phone No: 9434864772</p>
           </div>
-          <div className="p-4 text-white bg-orange-500 rounded-xl">
+          <div className="p-4 text-white bg-orange-500 dark:bg-gray-900 rounded-xl">
             <h3 className="font-bold mb-2"> HEAD OF DEPT., COMPUTER APPLICATIONS, SMIT
             </h3>
             <p>Prof. (Dr.) Samarjeet Borah</p>
@@ -190,7 +190,7 @@ const Governing = () => {
             <p>Email ID: samarjeet.b@smit.smu.edu.in</p>
             <p>Phone No: 9832621898</p>
           </div>
-          <div className="p-4 text-white bg-orange-500 rounded-xl">
+          <div className="p-4 text-white bg-orange-500 dark:bg-gray-900 rounded-xl">
             <h3 className="font-bold mb-2"> REPRESENTATIVE, DIRECTORATE OF RESEARCH, SMU
             </h3>
             <p>Prof. (Dr.) Rubi Dey</p>
@@ -198,7 +198,7 @@ const Governing = () => {
             <p>Email ID: rubi.d@smims.smu.edu.in</p>
             <p>Phone No: 9434709969</p>
           </div>
-          <div className="p-4 text-white bg-orange-500 rounded-xl">
+          <div className="p-4 text-white bg-orange-500 dark:bg-gray-900 rounded-xl">
             <h3 className="font-bold mb-2"> ADVISORY COUNCIL MEMBER
             </h3>
             <p>Prof. (Dr.) Bidita Khandelwal</p>
@@ -211,9 +211,9 @@ const Governing = () => {
 
       {/* Chairperson SRF Section */}
       <section className="mb-12">
-        <h2 className="text-3xl mb-4">Chairperson SRF</h2>
+        <h2 className="text-3xl mb-4 dark:text-gray-200">Chairperson SRF</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="p-4 text-white bg-orange-500 rounded-xl">
+          <div className="p-4 text-white bg-orange-500 dark:bg-gray-900 rounded-xl">
             <h3 className="font-bold mb-2">Chairperson, SRF SMIT</h3>
             <p>Dr Joydeep Biswas,</p>
             <p>
@@ -222,7 +222,7 @@ const Governing = () => {
             <p>Email Id: joydeep.biswas@smit.smu.edu.in</p>
             <p>Phone No: +91 9563318330</p>
           </div>
-          <div className="p-4 text-white bg-orange-500 rounded-xl">
+          <div className="p-4 text-white   bg-orange-500 dark:bg-gray-900 rounded-xl">
             <h3 className="font-bold mb-2">Chairperson, SRF SMU</h3>
             <p>Dr. Barkha Devi,</p>
             <p>ASSOCIATE PROFESSOR, Sikkim Manipal College of Nursing</p>
@@ -234,26 +234,26 @@ const Governing = () => {
 
       {/* Executive Council section */}
       <section className="mb-12">
-        <h2 className="text-3xl mb-4">Executive Council</h2>
+        <h2 className="text-3xl mb-4 dark:text-gray-200">Executive Council</h2>
         <div className="overflow-x-auto">
           <table className="w-full mb-8 table-auto">
-            <thead className="bg-orange-500 text-white">
+            <thead className="bg-orange-500 dark:bg-gray-900 text-white dark:text-gray-200">
               <tr>
                 <th className="px-4 py-2">Name</th>
                 <th className="px-4 py-2">Position</th>
                 <th className="px-4 py-2">Institution</th>
               </tr>
             </thead>
-            <tbody className="text-black">
+            <tbody className="text-black dark:text-gray-200">
               {members.map((member, index) => (
                 <tr key={index}>
-                  <td className="px-4 py-2 border border-black">
+                  <td className="px-4 py-2 border border-black dark:border-gray-900">
                     {member.name}
                   </td>
-                  <td className="px-4 py-2 border border-black">
+                  <td className="px-4 py-2 border border-black dark:border-gray-900">
                     {member.position}
                   </td>
-                  <td className="px-4 py-2 border border-black">
+                  <td className="px-4 py-2 border border-black dark:border-gray-900">
                     {member.institution}
                   </td>
                 </tr>
@@ -265,10 +265,10 @@ const Governing = () => {
 
       {/* Ex-Executive Council section */}
       <section>
-        <h2 className="text-3xl mb-4">Former Executive Council</h2>
+        <h2 className="text-3xl mb-4 dark:text-gray-200">Former Executive Council</h2>
         <div className="overflow-x-auto">
           <table className="w-full mb-8 table-auto">
-            <thead className="bg-orange-500 text-white">
+            <thead className="bg-orange-500 dark:bg-gray-900 text-white dark:text-gray-200">
               <tr>
                 <th className="px-4 py-2">Name</th>
                 <th className="px-4 py-2">Position</th>
@@ -276,19 +276,19 @@ const Governing = () => {
                 <th className="px-4 py-2">Institution</th>
               </tr>
             </thead>
-            <tbody className="text-black">
+            <tbody className="text-black dark:text-gray-200">
               {exMembers.map((member, index) => (
                 <tr key={index}>
-                  <td className="px-4 py-2 border border-black">
+                  <td className="px-4 py-2 border border-black dark:border-gray-900">
                     {member.name}
                   </td>
-                  <td className="px-4 py-2 border border-black">
+                  <td className="px-4 py-2 border border-black dark:border-gray-900">
                     {member.position}
                   </td>
-                  <td className="px-4 py-2 border border-black">
+                  <td className="px-4 py-2 border border-black dark:border-gray-900">
                     {member.tenure}
                   </td>
-                  <td className="px-4 py-2 border border-black">
+                  <td className="px-4 py-2 border border-black dark:border-gray-900">
                     {member.institution}
                   </td>
                 </tr>

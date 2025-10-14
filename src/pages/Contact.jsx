@@ -26,11 +26,11 @@ const Contact = () => {
 	};
 	return (
 		<>
-			<div className="mx-auto text-3xl font-bold text-orange-800 font-satoshi md:text-5xl">
+			<div className="mx-auto text-3xl font-bold text-orange-800 dark:text-gray-900 font-satoshi md:text-5xl">
 				Contact Us
 			</div>
 			<div className="grid grid-cols-1 gap-4 mx-auto mb-8 text-center">
-				<p className="text-sm font-semibold text-gray-700 md:text-base">
+				<p className="text-sm font-semibold text-gray-700 dark:text-gray-300 md:text-base">
 					We are happy to answer any questions you have to provide you with an
 					estimate,
 					<br />
@@ -43,7 +43,7 @@ const Contact = () => {
 					<h2 className="mb-6 text-2xl font-bold">Contact Us</h2>
 					<div className="mb-4">
 						<label
-							className="block mb-2 text-sm font-bold text-gray-700"
+							className="block mb-2 text-sm font-bold text-gray-700 dark:text-gray-300"
 							htmlFor="name">
 							YOUR NAME (required)
 						</label>
@@ -59,7 +59,7 @@ const Contact = () => {
 					</div>
 					<div className="mb-4">
 						<label
-							className="block mb-2 text-sm font-bold text-gray-700"
+							className="block mb-2 text-sm font-bold text-gray-700 dark:text-gray-300"
 							htmlFor="email">
 							YOUR E-MAIL (required)
 						</label>
@@ -75,7 +75,7 @@ const Contact = () => {
 					</div>
 					<div className="mb-4">
 						<label
-							className="block mb-2 text-sm font-bold text-gray-700"
+							className="block mb-2 text-sm font-bold text-gray-700 dark:text-gray-300"
 							htmlFor="subject">
 							Subject
 						</label>
@@ -90,7 +90,7 @@ const Contact = () => {
 					</div>
 					<div className="mb-6">
 						<label
-							className="block mb-2 text-sm font-bold text-gray-700"
+							className="block mb-2 text-sm font-bold text-gray-700 dark:text-gray-300"
 							htmlFor="message">
 							YOUR MESSAGE
 						</label>
@@ -105,7 +105,7 @@ const Contact = () => {
 					<div className="flex items-center justify-between">
 						<button
 							type="submit"
-							className="px-4 py-2 font-bold text-white bg-orange-500 rounded hover:bg-orange-700 focus:outline-none focus:shadow-outline">
+							className="px-4 py-2 font-bold text-white bg-orange-500 dark:bg-gray-900 rounded hover:bg-orange-700 dark:hover:bg-gray-500 focus:outline-none focus:shadow-outline">
 							SEND
 						</button>
 					</div>
