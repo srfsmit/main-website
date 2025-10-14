@@ -3,7 +3,7 @@ const Cover = () => {
     <div className="gap-4 p-4 md:flex md:flex-col">
       <div className="flex items-stretch justify-between w-full" id="main">
         <div
-          className="flex flex-col flex-1 gap-2 text-5xl font-bold tracking-widest uppercase md:text-8xl"
+          className="flex flex-col flex-1 gap-2 text-5xl font-bold tracking-widest uppercase md:text-8xl text-gray-900 dark:text-white"
           id="srf"
         >
           <div>
