@@ -38,7 +38,7 @@ const Footer = () => {
 				</span>
 			</div>
 			<div className="border border-white border-1 w-[90%] md:w-[70%] mt-4"></div>
-			<div className="text-sm text-gray-400">© All Rights Reserved SRF SMU</div>
+			<div className="text-sm text-gray-400">SRF SMU 2025 | All Rights Reserved</div>
 		</div>
 	);
 };
