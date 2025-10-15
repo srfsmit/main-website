@@ -1,4 +1,3 @@
-// src/components/Sidebar.jsx
 import React from "react";
 import Logo from "../images/srflogo.svg";
 import { Link } from "react-router-dom";
