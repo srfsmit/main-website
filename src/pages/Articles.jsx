@@ -79,8 +79,8 @@ const Articles = () => {
 	};
 
 	return (
-		<div className="bg-orange-50 py-8">
-			<h1 className="text-4xl font-bold text-center text-orange-800 mb-8">
+		<div className="bg-orange-50 dark:bg-gray-900 py-8">
+			<h1 className="text-4xl font-bold text-center text-orange-800 dark:text-orange-300 mb-8">
 				Articles By The Students
 			</h1>
 			<div className="container mx-auto px-4">
@@ -101,29 +101,29 @@ const Articles = () => {
 					<Slider {...settings}>
 						{articles.map((article, idx) => (
 							<div key={idx} className="p-2">
-								<div className="bg-white shadow-md rounded-lg overflow-hidden flex h-[300px]">
+								<div className="bg-white dark:bg-gray-800 shadow-md rounded-lg overflow-hidden flex h-[300px]">
 									<div className="w-1/3 h-full">
 									<img
 										src={article.img}
 										alt={article.Title}
 										className="w-full h-full object-cover"
 									/></div>
-									<div className="w-2/3 p-4 flex flex-col justify-between">
+										<div className="w-2/3 p-4 flex flex-col justify-between text-black dark:text-white">
 										<div className="overflow-hidden">
 											<h3 className="text-lg font-bold mb-1 truncate">
 												{article.Title}
 											</h3>
-											<p className="text-sm text-gray-600 mb-2 truncate">
+											<p className="text-sm text-gray-600 dark:text-gray-300 mb-2 truncate">
 												{article.Name}
 											</p>
-											<p className="text-sm text-gray-800 text-justify line-clamp-5">
+											<p className="text-sm text-gray-800 dark:text-gray-200 text-justify line-clamp-5">
 												{article.Content.substring(0, 100)}...
 											</p>
 										</div>
 										<a
 											href={article.Link}
 											target="_blank"
-											className="w-full py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors mt-2 text-center">
+											className="w-full py-2 bg-orange-500 text-white dark:bg-orange-600 dark:text-white rounded-lg hover:bg-orange-600 transition-colors mt-2 text-center">
 											Read More
 										</a>
 									</div>

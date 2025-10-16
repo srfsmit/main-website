@@ -82,7 +82,7 @@ const Events = () => {
 	if (events.length) {
 		return (
 			<>
-				<div className="mx-auto text-3xl font-bold text-orange-800 font-satoshi md:text-5xl">
+				<div className="mx-auto text-3xl font-bold text-orange-800 dark:text-orange-300 font-satoshi md:text-5xl">
 					Events
 				</div>
 				<div className="container mx-auto">
@@ -103,29 +103,29 @@ const Events = () => {
 						<Slider {...settings}>
 							{events.map((event, idx) => (
 								<div key={idx} className="p-4">
-									<div className="flex flex-col md:flex-row bg-white shadow-lg rounded-lg overflow-hidden md:h-[300px] h-auto">
+									<div className="flex flex-col md:flex-row bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden md:h-[300px] h-auto">
 										<img
 											src={event.image}
 											alt="event"
 											className="object-cover md:h-full md:w-1/3 h-[200px] w-full"
 										/>
 										<div className="flex flex-col flex-grow p-4">
-											<h3 className="text-lg font-bold text-black ">
+											<h3 className="text-lg font-bold text-black dark:text-white">
 												{event.Title}
 											</h3>
-											<p className="mt-2 text-sm text-gray-900 text-justify">
+												<p className="mt-2 text-sm text-gray-900 dark:text-gray-300 text-justify">
 												{event.content.substring(0, 300)}...
 											</p>
 											<div className="flex flex-col mt-2 space-y-2">
-												<p className="flex items-center text-sm text-gray-700">
+												<p className="flex items-center text-sm text-gray-700 dark:text-gray-300">
 													<FaMapMarkerAlt className="mr-1" /> {event.venue}
 												</p>
-												<p className="flex items-center text-sm text-gray-700">
+												<p className="flex items-center text-sm text-gray-700 dark:text-gray-300">
 													<FaClock className="mr-1" />{" "}
 													{moment(event.date).format("MMMM Do YYYY")}
 												</p>
 												{event.registrationLink && (
-													<p className="flex items-center text-sm text-blue-700">
+													<p className="flex items-center text-sm text-blue-700 dark:text-blue-300">
 														<FaExternalLinkAlt className="mr-1" />{" "}
 														<a
 															href={event.registrationLink}
