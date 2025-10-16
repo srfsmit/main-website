@@ -46,12 +46,12 @@ const Header = () => {
 	return (
 		<div className="relative w-full px-4 py-2 bg-orange-500 md:px-16">
 			<div className="flex items-center justify-between">
-		       <div className="flex gap-2 items-center">
+			   <div className="flex gap-2 items-center">
 			   <button
 				   aria-label="Toggle dark mode"
 				   onClick={toggleDarkMode}
-				   className="-ml-10 mr-3 p-2 rounded-full border border-gray-300 bg-white dark:bg-gray-800 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-1"
-		       >
+				   className="mr-3 p-2 rounded-full border border-gray-300 bg-white dark:bg-gray-800 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-1 md:-ml-10 relative z-20"
+			   >
 			       {darkMode ? <FiSun className="text-yellow-400" size={20} /> : <FiMoon className="text-gray-700" size={20} />}
 		       </button>
 			       <img src={Logo} width={50} alt="Logo" className="rounded-md" />
