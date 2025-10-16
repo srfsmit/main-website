@@ -103,19 +103,22 @@ const Events = () => {
 						<Slider {...settings}>
 							{events.map((event, idx) => (
 								<div key={idx} className="p-4">
-									<div className="flex flex-col md:flex-row bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden md:h-[300px] h-auto">
+									<div className="flex flex-col md:flex-row bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden h-[320px]">
+										<div className="md:w-1/3 w-full h-[320px]">
 										<img
 											src={event.image}
 											alt="event"
-											className="object-cover md:h-full md:w-1/3 h-[200px] w-full"
-										/>
-										<div className="flex flex-col flex-grow p-4">
-											<h3 className="text-lg font-bold text-black dark:text-white">
+											className="object-cover h-full w-full"
+										/></div>
+										<div className="flex flex-col justify-between p-4 md:w-2/3">
+											<div>
+												<h3 className="text-lg font-bold text-black dark:text-white">
 												{event.Title}
 											</h3>
-												<p className="mt-2 text-sm text-gray-900 dark:text-gray-300 text-justify">
+												<p className="mt-2 text-sm text-gray-900 dark:text-gray-300 text-justify line-clamp-4">
 												{event.content.substring(0, 300)}...
 											</p>
+											</div>
 											<div className="flex flex-col mt-2 space-y-2">
 												<p className="flex items-center text-sm text-gray-700 dark:text-gray-300">
 													<FaMapMarkerAlt className="mr-1" /> {event.venue}
