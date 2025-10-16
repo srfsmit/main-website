@@ -219,14 +219,14 @@ const Governing = () => {
             <p>
               Assistant Professor (Selection Grade), Dept. of Chemistry- SMIT
             </p>
-            <p>Email Id: joydeep.biswas@smit.smu.edu.in</p>
+            <p>Email ID: joydeep.biswas@smit.smu.edu.in</p>
             <p>Phone No: +91 9563318330</p>
           </div>
           <div className="p-4 text-white bg-orange-500 rounded-xl">
             <h3 className="font-bold mb-2">Chairperson, SRF SMU</h3>
             <p>Dr. Barkha Devi,</p>
-            <p>ASSOCIATE PROFESSOR, Sikkim Manipal College of Nursing</p>
-            <p>Email Id: barkha.d@smims.smu.edu.in</p>
+            <p>Associate Professor, Sikkim Manipal College of Nursing</p>
+            <p>Email ID: barkha.d@smims.smu.edu.in</p>
             <p>Phone No. +91 7479278673</p>
           </div>
         </div>
@@ -236,7 +236,7 @@ const Governing = () => {
       <section className="mb-12">
         <h2 className="text-3xl mb-4">Executive Council</h2>
         <div className="overflow-x-auto">
-          <table className="w-full mb-8 table-auto">
+          <table className="w-full mb-8 table-auto bg-white dark:bg-gray-800">
             <thead className="bg-orange-500 text-white">
               <tr>
                 <th className="px-4 py-2">Name</th>
@@ -244,16 +244,16 @@ const Governing = () => {
                 <th className="px-4 py-2">Institution</th>
               </tr>
             </thead>
-            <tbody className="text-black">
+            <tbody className="text-black dark:text-white">
               {members.map((member, index) => (
                 <tr key={index}>
-                  <td className="px-4 py-2 border border-black">
+                  <td className="px-4 py-2 border border-black dark:border-gray-600">
                     {member.name}
                   </td>
-                  <td className="px-4 py-2 border border-black">
+                  <td className="px-4 py-2 border border-black dark:border-gray-600">
                     {member.position}
                   </td>
-                  <td className="px-4 py-2 border border-black">
+                  <td className="px-4 py-2 border border-black dark:border-gray-600">
                     {member.institution}
                   </td>
                 </tr>
@@ -267,7 +267,7 @@ const Governing = () => {
       <section>
         <h2 className="text-3xl mb-4">Former Executive Council</h2>
         <div className="overflow-x-auto">
-          <table className="w-full mb-8 table-auto">
+          <table className="w-full mb-8 table-auto bg-white dark:bg-gray-800">
             <thead className="bg-orange-500 text-white">
               <tr>
                 <th className="px-4 py-2">Name</th>
@@ -276,19 +276,19 @@ const Governing = () => {
                 <th className="px-4 py-2">Institution</th>
               </tr>
             </thead>
-            <tbody className="text-black">
+            <tbody className="text-black dark:text-white">
               {exMembers.map((member, index) => (
                 <tr key={index}>
-                  <td className="px-4 py-2 border border-black">
+                  <td className="px-4 py-2 border border-black dark:border-gray-600">
                     {member.name}
                   </td>
-                  <td className="px-4 py-2 border border-black">
+                  <td className="px-4 py-2 border border-black dark:border-gray-600">
                     {member.position}
                   </td>
-                  <td className="px-4 py-2 border border-black">
+                  <td className="px-4 py-2 border border-black dark:border-gray-600">
                     {member.tenure}
                   </td>
-                  <td className="px-4 py-2 border border-black">
+                  <td className="px-4 py-2 border border-black dark:border-gray-600">
                     {member.institution}
                   </td>
                 </tr>
