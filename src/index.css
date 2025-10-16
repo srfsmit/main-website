@@ -59,3 +59,21 @@
 	animation: none;
 	transform: scale(1.08);
 }
+
+@layer components {
+	.card {
+		@apply bg-white dark:bg-gray-800 text-black dark:text-white rounded-lg shadow-md overflow-hidden border border-gray-100 dark:border-gray-700 transition-colors;
+	}
+
+	.card-inner {
+		@apply p-4;
+	}
+
+	.btn {
+		@apply inline-block w-full px-4 py-2 rounded-md font-medium bg-orange-500 text-white hover:bg-orange-600 transition-colors;
+	}
+
+	.btn-ghost {
+		@apply inline-block px-4 py-2 rounded-md font-medium bg-transparent border border-gray-200 dark:border-gray-700 text-black dark:text-white hover:bg-gray-50 dark:hover:bg-gray-700;
+	}
+}
