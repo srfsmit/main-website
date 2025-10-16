@@ -26,7 +26,7 @@ const Contact = () => {
 	};
 	return (
 		<>
-			<div className="mx-auto text-3xl font-bold text-orange-800 font-satoshi md:text-5xl">
+			<div className="mx-auto text-3xl font-bold text-orange-800 font-poppins md:text-5xl">
 				Contact Us
 			</div>
 			<div className="grid grid-cols-1 gap-4 mx-auto mb-8 text-center">

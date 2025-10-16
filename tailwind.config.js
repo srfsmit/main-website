@@ -5,7 +5,8 @@ export default {
        theme: {
 	       extend: {
 		       fontFamily: {
-			       satoshi: ["Satoshi", "sans-serif"],
+	               satoshi: ["Satoshi", "sans-serif"],
+	               poppins: ["Poppins", "ui-sans-serif", "system-ui", "-apple-system", "Segoe UI", "Roboto", "Arial", "sans-serif"],
 		       },
 		       fontWeight: {
 			       regular: 400,

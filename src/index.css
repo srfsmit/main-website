@@ -2,33 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* src/fonts.css */
-@font-face {
-	font-family: "Satoshi";
-	src: url("./fonts/Satoshi-Regular.otf") format("otf");
-	font-weight: 400;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "Satoshi";
-	src: url("./fonts/Satoshi-Bold.otf") format("otf");
-	font-weight: 700;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "Satoshi";
-	src: url("./fonts/Satoshi-Light.otf") format("otf");
-	font-weight: 300;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "Satoshi";
-	src: url("./fonts/Satoshi-Medium.otf") format("otf");
-	font-weight: 500;
-	font-style: normal;
+/* Base font family */
+:root {
+    --font-sans: 'Poppins', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
 }
 
 .slick-prev,
@@ -75,5 +51,11 @@
 
 	.btn-ghost {
 		@apply inline-block px-4 py-2 rounded-md font-medium bg-transparent border border-gray-200 dark:border-gray-700 text-black dark:text-white hover:bg-gray-50 dark:hover:bg-gray-700;
+	}
+}
+
+@layer base {
+	h1, h2, h3, h4, h5, h6 {
+		@apply text-gray-900 dark:text-white;
 	}
 }
