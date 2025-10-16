@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Sidebar = ({ links, isOpen, toggleSidebar }) => {
 	return (
 		<div
-			className={`fixed top-0 left-0 w-64 h-full bg-orange-300 transform py-2 ${
+			className={`fixed top-0 left-0 w-64 h-full bg-orange-300 transform py-2 md:hidden ${
 				isOpen ? "translate-x-0" : "-translate-x-full"
 			} transition-transform duration-300 ease-in-out z-50`}>
 			<div className="flex justify-between px-4 ">
@@ -22,8 +22,8 @@ const Sidebar = ({ links, isOpen, toggleSidebar }) => {
 								href={link.path}
 								target="_blank"
 								rel="noopener noreferrer"
-								className={`px-4 py-2 hover:bg-orange-400 text-white ${link.highlight ? 'font-bold border-2 border-white rounded-md' : ''}`}>
-								{link.title}
+							className={`px-4 py-2 hover:bg-orange-400 text-white ${link.highlight ? 'font-bold border-2 border-white rounded-md' : ''}`}>
+							{link.title}
 							</a>
 						) : (
 							<Link
