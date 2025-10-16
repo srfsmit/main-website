@@ -101,14 +101,14 @@ const Articles = () => {
 					<Slider {...settings}>
 						{articles.map((article, idx) => (
 							<div key={idx} className="p-2">
-								<div className="bg-white dark:bg-gray-800 shadow-md rounded-lg overflow-hidden flex h-[300px]">
+								<div className="card flex h-[300px]">
 									<div className="w-1/3 h-full">
 									<img
 										src={article.img}
 										alt={article.Title}
 										className="w-full h-full object-cover"
 									/></div>
-										<div className="w-2/3 p-4 flex flex-col justify-between text-black dark:text-white">
+										<div className="w-2/3 card-inner flex flex-col justify-between">
 										<div className="overflow-hidden">
 											<h3 className="text-lg font-bold mb-1 truncate">
 												{article.Title}
@@ -123,7 +123,7 @@ const Articles = () => {
 										<a
 											href={article.Link}
 											target="_blank"
-											className="w-full py-2 bg-orange-500 text-white dark:bg-orange-600 dark:text-white rounded-lg hover:bg-orange-600 transition-colors mt-2 text-center">
+											className="btn mt-2 text-center">
 											Read More
 										</a>
 									</div>

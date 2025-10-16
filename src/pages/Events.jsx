@@ -130,7 +130,8 @@ const Events = () => {
 														<a
 															href={event.registrationLink}
 															target="_blank"
-															rel="noopener noreferrer">
+															rel="noopener noreferrer"
+															className="btn-ghost">
 															Register Here
 														</a>
 													</p>
