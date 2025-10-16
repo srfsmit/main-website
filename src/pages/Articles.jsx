@@ -102,20 +102,21 @@ const Articles = () => {
 						{articles.map((article, idx) => (
 							<div key={idx} className="p-2">
 								<div className="bg-white shadow-md rounded-lg overflow-hidden flex h-[300px]">
+									<div className="w-1/3 h-full">
 									<img
 										src={article.img}
 										alt={article.Title}
-										className="w-1/3 object-cover"
-									/>
+										className="w-full h-full object-cover"
+									/></div>
 									<div className="w-2/3 p-4 flex flex-col justify-between">
-										<div>
-											<h3 className="text-lg font-bold mb-1">
+										<div className="overflow-hidden">
+											<h3 className="text-lg font-bold mb-1 truncate">
 												{article.Title}
 											</h3>
-											<p className="text-sm text-gray-600 mb-2">
+											<p className="text-sm text-gray-600 mb-2 truncate">
 												{article.Name}
 											</p>
-											<p className="text-sm text-gray-800 text-justify">
+											<p className="text-sm text-gray-800 text-justify line-clamp-5">
 												{article.Content.substring(0, 100)}...
 											</p>
 										</div>
