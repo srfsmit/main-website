@@ -16,10 +16,13 @@ const Events = () => {
 		dots: true,
 		infinite: false,
 		speed: 500,
-		slidesToShow: 1,
 		rows: 10,
+		slidesToShow: 1,
+		adaptiveHeight: true,
 		slidesToScroll: 1,
 		slidesPerRow: 1,
+		
+
 		initialSlide: 0,
 		responsive: [
 			{
@@ -102,8 +105,8 @@ const Events = () => {
 					) : (
 						<Slider {...settings}>
 							{events.map((event, idx) => (
-								<div key={idx} className="p-4">
-									<div className="flex flex-col md:flex-row bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden h-[320px]">
+								<div key={idx} className="p-4 flex justify-center">
+									<div className="flex flex-col md:flex-row bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden h-auto">
 										<div className="md:w-1/3 w-full h-[320px]">
 										<img
 											src={event.image}
