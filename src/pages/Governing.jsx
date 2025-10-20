@@ -124,7 +124,7 @@ const Governing = () => {
 
   return (
     <div className="container mx-auto px-4">
-      <h1 className="text-3xl md:text-5xl font-bold text-orange-800 font-satoshi text-center mb-8">
+      <h1 className="text-3xl md:text-5xl font-bold text-orange-800 font-poppins text-center mb-8">
         Governing Council
       </h1>
 

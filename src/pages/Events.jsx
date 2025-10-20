@@ -85,7 +85,7 @@ const Events = () => {
 	if (events.length) {
 		return (
 			<>
-				<div className="mx-auto text-3xl font-bold text-orange-800 dark:text-orange-300 font-satoshi md:text-5xl">
+				<div className="mx-auto text-3xl font-bold text-orange-800 dark:text-orange-300 font-poppins md:text-5xl">
 					Events
 				</div>
 				<div className="container mx-auto">
