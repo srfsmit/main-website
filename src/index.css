@@ -53,9 +53,7 @@
 		@apply inline-block px-4 py-2 rounded-md font-medium bg-transparent border border-gray-200 dark:border-gray-700 text-black dark:text-white hover:bg-gray-50 dark:hover:bg-gray-700;
 	}
 }
-
-@layer base {
-	h1, h2, h3, h4, h5, h6 {
-		@apply text-gray-900 dark:text-white;
-	}
+.slick-slide {
+  display: block !important;
+  height: auto !important;
 }
