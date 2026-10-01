@@ -81,7 +81,7 @@ const Governing = () => {
     { name: "Riddhi Bhagat", position: "Executive Board Member", institution: "Department of Computer Science & Engineering (CSE)", phone: "9152086411", email: "riddhi_202400703@smit.smu.edu.in" },
     { name: "Nikhil Patnaik", position: "Executive Board Member", institution: "Department of Artificial Intelligence (AI) & Data Science (DS)", phone: "7894237415", email: "nikhil_202300488@smit.smu.edu.in" },
     { name: "Atharv Pratap Singh", position: "Executive Board Member", institution: "Department of Computer Science & Engineering (CSE)", phone: "9837809770", email: "atharv_202400526@smit.smu.edu.in" },
-    { name: "Vikash Awasthi", position: "Executive Board Member", institution: "Department of Computer Science & Engineering (CSE)", phone: "7267023117", email: "vikas_202400498@smit.smu.edu.in" },
+    { name: "Vikash Awasthi", position: "Executive Board Member", institution: "Department of Computer Science & Engineering (CSE)", phone: "7267023117", email: "vikash_202400498@smit.smu.edu.in" },
   ];
 
   const tadongExecutive = [
@@ -199,12 +199,6 @@ const Governing = () => {
       institution: "Sikkim Manipal Institute of Technology (SMIT)",
     },
     {
-      name: "Ms. Torsha Guha",
-      position: "President",
-      tenure: "2025-2026",
-      institution: "Sikkim Manipal Institute of Technology (SMIT)",
-    },
-    {
       name: "Mr. Pranit Rai",
       position: "President",
       tenure: "2025-2026",
@@ -215,12 +209,6 @@ const Governing = () => {
       position: "Secretary",
       tenure: "2025-2026",
       institution: "Sikkim Manipal College of Physiotherapy (SMCPT)",
-    },
-    {
-      name: "Mr. Anirudh Jaiswal",
-      position: "Secretary",
-      tenure: "2025-2026",
-      institution: "Sikkim Manipal Institute of Technology (SMIT)",
     },
     {
       name: "Ms. Pritika Biswas",
